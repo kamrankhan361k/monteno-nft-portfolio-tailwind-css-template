@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Monteno - NFT Portfolio HTML Template (TaiWin CSS)</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font/font-awesome.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+</head>
+<body class="bg-[url('../images/background/bg-about.jpg')] dark:bg-none dark:bg-black">
+    
+     <!-- Preloading -->
+    <div class="preloader">
+        <div class="icon">
+            <img src="assets/images/favicon.png" alt="">
+        </div>
+    </div>
+    <!-- end Preloading -->
+
+    <!-- Dark and light button start -->
+    <div class="fixed top-[50%] right-0 translate-y-[-50%] z-50 max-[1023px]:z-[100001] max-[1023px]:top-[45px] max-[1023px]:right-[250px] max-[767px]:right-[60px]">
+        <button class="w-[50px] h-[50px] text-white flex justify-center items-center rounded-lg !outline-0 bg-tf" id="dark-mode">
+        <img src="assets/images/moon.png" alt="" class="dark--mode__icon ionicon max-w-[25px]">
+        <img src="assets/images/sun.png" alt="" class="light--mode__icon ionicon max-w-[25px]">
+        </button>
+    </div>
+    <!-- Dark and light button end -->
+
+    <!-- Scroll Top -->
+    <div class="progress-wrap active-progress">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 286.138;"></path>
+        </svg>
+    </div>
+    <!-- end Scroll Top -->
+    
+    <!-- Header -->
+     <header class="relative h-[170px] flex items-center justify-center header-fixed">
+        <div class="sticky-area-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="flex justify-between">
+                        <div class="h-[53px]">
+                            <a href="index.html">
+                                <img src="assets/images/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <nav class="hidden lg:block">
+                                <ul class="flex items-center justify-center">
+                                    <li class="group mr-[44px] relative">
+                                        <a class="relative menu-item-hover " href="#">Home</a>
+                                        <ul class="menu-item-has-children">
+                                            <li class="menu-item-children"><a href="index.html">Home 01</a></li>
+                                            <li class="menu-item-children"><a href="home-02.html">Home 02</a></li>
+                                            <li class="menu-item-children"><a href="home-03.html">Home 03</a></li>
+                                            <li class="menu-item-children"><a href="onepage.html">One Page</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="group mr-[44px] relative">
+                                        <a class="relative menu-item-hover hover:text-tf" href="about.html">About</a>
+                                    </li>
+                                    <li class="group mr-[44px] relative">
+                                        <a class="relative menu-item-hover hover:text-tf" href="collections.html">Collections</a>
+                                    </li>
+                                    <li class="group mr-[44px] relative">
+                                        <a class="relative menu-item-hover text-tf" href="#">Pages</a>
+                                        <ul class="menu-item-has-children">
+                                            <li class="menu-item-children"><a href="team.html">Team</a></li>
+                                            <li class="menu-item-children"><a href="roadmap.html">Road Map</a></li>
+                                            <li class="menu-item-children"><a href="our-mission.html">Our Mission</a></li>
+                                            <li class="menu-item-children"><a href="blog-list.html">Blog List</a></li>
+                                            <li class="menu-item-children"><a href="blog-grid.html">Blog Grid</a></li>
+                                            <li class="menu-item-children"><a href="blog-single.html">Blog Single</a></li>
+                                            <li class="menu-item-children"><a class="text-tf" href="faq.html">Faq</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="group mr-[30px] relative">
+                                        <a class="relative menu-item-hover hover:text-tf" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="hidden md:flex ">
+                                <a class="btn-action" href="contact.html">Join Now</a>
+                            </div>
+                            <div class="btn-menu lg:hidden relative mr-[15px] ml-[30px]">
+                                <span class="btn-menu-1 absolute duration-[0.3s] w-[26px] h-[3px] right-[-15px] bg-[#ffffff]"></span>
+                                <span class="btn-menu-2 absolute duration-[0.3s] w-[26px] h-[3px] right-[-15px] bg-[#ffffff] top-[7px]"></span>
+                                <span class="btn-menu-3 absolute duration-[0.3s] w-[26px] h-[3px] right-[-15px] bg-[#ffffff] -top-[7px]"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav id="main-nav-mobi" class="hidden absolute w-full top-full left-0 z-[999999] bg-[#4526b1] lg:!hidden dark:bg-black dark:border-t dark:border-solid dark:border-t-[#ffffff26]">
+            <ul class="">
+                <li class="relative mobi-home mobi-item-has-children border-b-[1px] border-b-solid border-b-[#ffffff26]">
+                    <a class="relative py-[10px] px-[30px]" href="#">Home</a>
+                    <span class="arrow-down absolute top-[10px] right-[15px] duration-[0.5s]"></span>
+                    <ul class="hidden mobi-item-has-children-list">
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px] " href="index.html">Home 01</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px] " href="home-02.html">Home 02</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px] " href="home-03.html">Home 03</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px] " href="onepage.html">One Page</a></li>
+                    </ul>
+                </li>
+                <li class="relative border-b-[1px] border-b-solid border-b-[#ffffff26]">
+                    <a class="relative w-full py-[10px] px-[30px] " href="about.html">About</a>
+                </li>
+                <li class="relative border-b-[1px] border-b-solid border-b-[#ffffff26]">
+                    <a class="relative w-full py-[10px] px-[30px] " href="about.html">Collections</a>
+                </li>
+                <li class="relative mobi-pages mobi-item-has-children border-b-[1px] border-b-solid border-b-[#ffffff26]">
+                    <a class="relative py-[10px] px-[30px] text-tf" href="#">Pages</a>
+                    <span class="arrow-down absolute top-[10px] right-[15px] duration-[0.5s]"></span>
+                    <ul class="hidden mobi-item-has-children-list">
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px] " href="team.html">Team</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px] " href="roadmap.html">Road Map</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px] " href="our-mission.html">Our Mission</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px]" href="blog-list.html">Blog List</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px]" href="blog-grid.html">Blog Grid</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px]" href="blog-single.html">Blog Single</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px] text-tf" href="faq.html">Faq</a></li>
+                    </ul>
+                </li>
+                <li class="relative border-b-[1px] border-b-solid border-b-[#ffffff26]">
+                    <a class="relative w-full py-[10px] px-[30px]" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <!-- end Header -->
+
+    <!-- PageTitle -->
+    <section class="tf-section page-title">
+        <div class="container">
+            <div class="p-0 col-md-12">
+                <div class="bg-[#4c22e1] relative pt-[52px] pb-[61px] px-[94px] rounded-[20px] 
+                            before:content-[''] before:w-full before:h-full before:absolute before:top-0 before:left-0 before:bg-[url('./../../assets/images/background/bg-inner-page-02.png')] before:opacity-[0.63] before:rounded-[20px] before:mix-blend-screen before:bg-cover before:bg-no-repeat before:bg-[center_top] ">
+                    <div class="relative pt-[12px]">
+                        <h2 class="leading-[108px] relative mb-[20px]
+                                    before::content-[''] before:w-[36px] before:h-[5px] before:absolute before:bottom-0 before:left-0 before:bg-[#fd562a] ">
+                            FAQ
+                        </h2>
+                        <p class="mb-[33px] text-[24px]">Sed ut perspiciatis unde omnis iste natus <br> error sit voluptatem accusantium </p>
+                    </div>
+                    <img class="absolute bottom-0 right-[129px]" src="assets/images/items/group-ntf-02.png" alt="Monteno">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end PageTitle -->
+
+    <!-- FAQ -->
+    <section class="tf-section faq">
+        <div class="pt-[143px] pb-[121px] max-[499px]:py-[60px]">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="relative text-center">
+                            <h1 class="absolute left-[27px] right-0 top-[-40px] mx-auto text-center text-[240px] tracking-[24px] uppercase -z-10">
+                                <span class="heading-bg">FAQ</span>
+                            </h1>
+                            <h5 data-aos="fade-up" data-aos-duration="1000" class="relative leading-[3.2] mb-[10px] after:absolute after:content-[''] after:bottom-0 after:w-[36px] after:h-[5px] after:bg-tf after:left-0 after:right-0 after:mx-auto after:text-center ">
+                                FAQ</h5>
+                            <h3 data-aos="fade-up" data-aos-duration="1000" class="mb-[28px]">Frequently Aksed <br> Questions</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="flat-tabs flex mt-[54px] flex-wrap">
+                            <div class="col-md-4 col-12 !p-0">
+                                <ul class="menu-tab border-[1px] border-solid border-[#7153d9] rounded-[20px] p-[39px_47px_20px_47px] max-w-[270px] max-[767px]:max-w-full">
+                                    <li class="item-title active">
+                                        <span class="inner">Cryptocurrency</span>
+                                    </li>
+                                    <li class="item-title">
+                                        <span class="inner">NFT Token</span>
+                                    </li>
+                                    <li class="item-title">
+                                        <span class="inner">Collection</span>
+                                    </li>
+                                    <li class="item-title !border-0">
+                                        <span class="inner">Crypto Trading</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-8 col-12 !pr-0 !pl-[12px]">
+                                <div class="content-tab max-[767px]:mt-[60px] pl-[12px]">
+                                    <div class="content-inner">
+                                        <div class="flat-accordion">
+                                            <div class="flat-toggle">
+                                                <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500] active">When the musics over turn off the light?</h5>
+                                                <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex when the musics over turn off the light says jim morrison and doors. So close no matter how far whatis the best thing to do in this dhaka. ercitation ullamco laboris nisi ut aliquip</p>
+                                                </div>
+                                            </div>
+                                            <div class="flat-toggle">
+                                                <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">What is the best way to collect NFT?</h5>
+                                                <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                                </div>
+                                            </div>
+                                            <div class="flat-toggle">
+                                                <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">Why NFT Trading is so popular?</h5>
+                                                <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                                </div>
+                                            </div>
+                                            <div class="flat-toggle">
+                                                <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">How do you trade on Montono easily?</h5>
+                                                <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                                </div>
+                                            </div>                       
+                                        </div>
+                                    </div>
+                                    <div class="content-inner">
+                                        <div class="flat-accordion">
+                                            <div class="flat-toggle">
+                                                <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500] active">When the musics over turn off the light?</h5>
+                                                <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                                </div>
+                                            </div>
+                                            <div class="flat-toggle">
+                                                <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">What is the best way to collect NFT?</h5>
+                                                <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                                </div>
+                                            </div>
+                                            <div class="flat-toggle">
+                                                <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">Why NFT Trading is so popular?</h5>
+                                                <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                                </div>
+                                            </div>
+                                            <div class="flat-toggle">
+                                                <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">How do you trade on Montono easily?</h5>
+                                                <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                                </div>
+                                            </div>                       
+                                        </div>
+                                    </div>
+                                    <div class="content-inner">
+                                        <div class="flat-accordion">
+                                            <div class="flat-toggle">
+                                                <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500] active">When the musics over turn off the light?</h5>
+                                                <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                                </div>
+                                            </div>
+                                            <div class="flat-toggle">
+                                                <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">What is the best way to collect NFT?</h5>
+                                                <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                                </div>
+                                            </div>
+                                            <div class="flat-toggle">
+                                                <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">Why NFT Trading is so popular?</h5>
+                                                <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                                </div>
+                                            </div>
+                                            <div class="flat-toggle">
+                                                <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">How do you trade on Montono easily?</h5>
+                                                <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                                </div>
+                                            </div>                       
+                                        </div>
+                                    </div>
+                                    <div class="content-inner">
+                                        <div class="flat-accordion">
+                                            <div class="flat-toggle">
+                                                <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500] active">When the musics over turn off the light?</h5>
+                                                <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                                </div>
+                                            </div>
+                                            <div class="flat-toggle">
+                                                <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">What is the best way to collect NFT?</h5>
+                                                <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                                </div>
+                                            </div>
+                                            <div class="flat-toggle">
+                                                <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">Why NFT Trading is so popular?</h5>
+                                                <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                                </div>
+                                            </div>
+                                            <div class="flat-toggle">
+                                                <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">How do you trade on Montono easily?</h5>
+                                                <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                                </div>
+                                            </div>                       
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end FAQ -->
+
+    <!-- Partners -->
+    <section class="tf-section partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="relative text-center">
+                        <h1 class="absolute left-[27px] right-0 top-[-40px] mx-auto text-center text-[240px] tracking-[24px] uppercase -z-10">
+                            <span class="heading-bg">Team</span>
+                        </h1>
+                        <h5 class="relative leading-[3.2] mb-[10px] after:absolute after:content-[''] after:bottom-0 after:w-[36px] after:h-[5px] after:bg-tf after:left-0 after:right-0 after:mx-auto after:text-center ">Partners</h5>
+                        <h3 class="mb-[28px]">We Are Partnered <br> with Top Brands</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="flex items-center justify-center flex-wrap border-[rgba(255,255,255,0.18)] border-[1px] rounded-[10px] mt-[61px]">
+                        <div class="group flex items-center justify-center w-[25%] h-[176px] border-[rgba(255,255,255,0.18)] border-r-[1px] border-b-[1px]">
+                            <a href="#"><img class="opacity-50 duration-[0.3s] group-hover:opacity-100" src="assets/images/partners/logo-01.png" alt="Monteno"></a>
+                        </div>
+                        <div class="group flex items-center justify-center w-[25%] h-[176px] border-[rgba(255,255,255,0.18)] border-r-[1px] border-b-[1px]">
+                            <a href="#"><img class="opacity-50 duration-[0.3s] group-hover:opacity-100" src="assets/images/partners/logo-02.png" alt="Monteno"></a>
+                        </div>
+                        <div class="group flex items-center justify-center w-[25%] h-[176px] border-[rgba(255,255,255,0.18)] border-r-[1px] border-b-[1px]">
+                            <a href="#"><img class="opacity-50 duration-[0.3s] group-hover:opacity-100" src="assets/images/partners/logo-03.png" alt="Monteno"></a>
+                        </div>
+                        <div class="group flex items-center justify-center w-[25%] h-[176px] border-[rgba(255,255,255,0.18)] border-b-[1px]">
+                            <a href="#"><img class="opacity-50 duration-[0.3s] group-hover:opacity-100" src="assets/images/partners/logo-04.png" alt="Monteno"></a>
+                        </div>
+                        <div class="group flex items-center justify-center w-[25%] h-[176px] border-[rgba(255,255,255,0.18)] border-r-[1px]">
+                            <a href="#"><img class="opacity-50 duration-[0.3s] group-hover:opacity-100" src="assets/images/partners/logo-05.png" alt="Monteno"></a>
+                        </div>
+                        <div class="group flex items-center justify-center w-[25%] h-[176px] border-[rgba(255,255,255,0.18)] border-r-[1px]">
+                            <a href="#"><img class="opacity-50 duration-[0.3s] group-hover:opacity-100" src="assets/images/partners/logo-06.png" alt="Monteno"></a>
+                        </div>
+                        <div class="group flex items-center justify-center w-[25%] h-[176px] border-[rgba(255,255,255,0.18)] border-r-[1px]">
+                            <a href="#"><img class="opacity-50 duration-[0.3s] group-hover:opacity-100" src="assets/images/partners/logo-07.png" alt="Monteno"></a>
+                        </div>
+                        <div class="group flex items-center justify-center w-[25%] h-[176px] border-[rgba(255,255,255,0.18)]">
+                            <a href="#"><img class="opacity-50 duration-[0.3s] group-hover:opacity-100" src="assets/images/partners/logo-08.png" alt="Monteno"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Partners -->
+
+    <!-- Action -->
+    <section class="tf-section action">
+        <div class="pt-[167px] py-[122px] max-[499px]:py-[60px]">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="bg-[#4c22e1] rounded-[20px] py-[61px] px-[72px] flex items-center justify-between">
+                            <div class="relative">
+                                <h3 class="mb-[13px]">Create Your NFT Portfolio</h3>
+                                <p class="text-[21px] mb-[7px]">Get udpated with news, tips &amp; tricks</p>
+                            </div>
+                            <a href="contact.html" class="!py-[18px] !px-[60px] text-[20px] btn-action style-2">Join Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Action -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center pb-[120px] border-b-[1px] border-b-solid border-b-[#ffffff2e]">
+                        <img class="m-auto" src="assets/images/logo.png" alt="">
+                        <p class="text-center lg:px-[300px] md:px-[100px] px[0] pt-[42px] pb-[26px] mb-[16px] leading-[1.7]">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia dese runt mollit ani 
+                        </p>
+                        <ul class="flex justify-center">
+                            <li class="social-icons">
+                                <a class="hover:text-[#fff]" href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="social-icons">
+                                <a class="hover:text-[#fff]" href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="social-icons">
+                                <a class="hover:text-[#fff]" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li class="social-icons">
+                                <a class="hover:text-[#fff]" href="#"><i class="fab fa-youtube"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center px-[13px] py-[35px] w-full flex-wrap md:justify-between md:!flex-nowrap">
+                    <p class="text-[16px] md:mb-0 mb-[20px] text-center">Copyright © 2022, Monteno - NFT Portfolio HTML Template. Designed by <a href="https://themeforest.net/user/themesflat/portfolio">Themesflat</a></p>
+                    <ul class="flex items-center justify-end pl-[20px] md:pl-[0]">
+                        <li class="pl-[0px] md:pl-[38px]"><a href="#" class="font-['Roboto'] text-[16px]">Terms &amp; Condition</a></li>
+                        <li class="pl-[38px]"><a href="#" class="font-['Roboto'] text-[16px]">Privacy Policy</a></li>
+                        <li class="pl-[38px]"><a href="#" class="font-['Roboto'] text-[16px]">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end Footer -->
+    
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/countto.js"></script>
+    <script src="assets/js/count-down.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>AOS.init();</script>
+
+</body>
+</html>

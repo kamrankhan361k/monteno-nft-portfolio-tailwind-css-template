@@ -1,0 +1,15 @@
+{
+  "name": "monteno",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/assets/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "themesflat",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}

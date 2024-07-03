@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - 02 Monteno - NFT Portfolio HTML Template (TaiWin CSS)</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font/font-awesome.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+</head>
+<body class="bg-[url('../images/background/bg-element-2.jpg')] home-2 counter-scroll dark:bg-none dark:bg-black">
+    
+    <!-- Preloading -->
+    <div class="preloader">
+        <div class="icon">
+            <img src="assets/images/favicon.png" alt="">
+        </div>
+    </div>
+    <!-- end Preloading -->
+
+    <!-- Dark and light button start -->
+    <div class="fixed top-[50%] right-0 translate-y-[-50%] z-50 max-[1023px]:z-[100001] max-[1023px]:top-[45px] max-[1023px]:right-[60px]">
+        <button class="w-[50px] h-[50px] text-white flex justify-center items-center rounded-lg !outline-0 bg-tf" id="dark-mode">
+        <img src="assets/images/moon.png" alt="" class="dark--mode__icon ionicon max-w-[25px]">
+        <img src="assets/images/sun.png" alt="" class="light--mode__icon ionicon max-w-[25px]">
+        </button>
+    </div>
+    <!-- Dark and light button end -->
+
+    <!-- Scroll Top -->
+    <div class="progress-wrap active-progress">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 286.138;"></path>
+        </svg>
+    </div>
+    <!-- end Scroll Top -->
+    
+    <!-- Header -->
+    <header class="relative h-[170px] flex items-center justify-center header-fixed">
+        <div class="sticky-area-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="flex justify-between">
+                        <div class="h-[53px]">
+                            <a href="index.html">
+                                <img src="assets/images/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <nav class="hidden lg:block">
+                                <ul class="flex items-center justify-center">
+                                    <li class="group mr-[44px] relative">
+                                        <a class="relative menu-item-hover text-tf" href="#">Home</a>
+                                        <ul class="menu-item-has-children">
+                                            <li class="menu-item-children"><a href="index.html">Home 01</a></li>
+                                            <li class="menu-item-children"><a class="text-tf" href="home-02.html">Home 02</a></li>
+                                            <li class="menu-item-children"><a href="home-03.html">Home 03</a></li>
+                                            <li class="menu-item-children"><a href="onepage.html">One Page</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="group mr-[44px] relative">
+                                        <a class="relative menu-item-hover hover:text-tf" href="about.html">About</a>
+                                    </li>
+                                    <li class="group mr-[44px] relative">
+                                        <a class="relative menu-item-hover hover:text-tf" href="collections.html">Collections</a>
+                                    </li>
+                                    <li class="group mr-[44px] relative">
+                                        <a class="relative menu-item-hover hover:text-tf" href="#">Pages</a>
+                                        <ul class="menu-item-has-children">
+                                            <li class="menu-item-children"><a href="team.html">Team</a></li>
+                                            <li class="menu-item-children"><a href="roadmap.html">Road Map</a></li>
+                                            <li class="menu-item-children"><a href="our-mission.html">Our Mission</a></li>
+                                            <li class="menu-item-children"><a href="blog-list.html">Blog List</a></li>
+                                            <li class="menu-item-children"><a href="blog-grid.html">Blog Grid</a></li>
+                                            <li class="menu-item-children"><a href="blog-single.html">Blog Single</a></li>
+                                            <li class="menu-item-children"><a href="faq.html">Faq</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="group mr-[30px] relative">
+                                        <a class="relative menu-item-hover hover:text-tf" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <ul class=" items-center justify-end mr-[15px] pl-[5px] relative lg:flex hidden
+                                       before:content-[''] before:absolute before:top-[10px] before:left-[3%] before:w-[1px] before:h-[12px] before:bg-[rgba(255,255,255,0.302)] before:hidden before:lg:block ">
+                                <li class="pl-[25px]">
+                                    <a class="text-[20px]" href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="pl-[25px]">
+                                    <a class="text-[20px]" href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="pl-[25px]">
+                                    <a class="text-[20px]" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li class="pl-[25px]">
+                                    <a class="text-[20px]" href="#"><i class="fab fa-youtube"></i></a>
+                                </li>
+                            </ul>
+                            <div class="btn-menu lg:hidden relative mr-[15px] ml-[30px]">
+                                <span class="btn-menu-1 absolute duration-[0.3s] w-[26px] h-[3px] right-[-15px] bg-[#ffffff]"></span>
+                                <span class="btn-menu-2 absolute duration-[0.3s] w-[26px] h-[3px] right-[-15px] bg-[#ffffff] top-[7px]"></span>
+                                <span class="btn-menu-3 absolute duration-[0.3s] w-[26px] h-[3px] right-[-15px] bg-[#ffffff] -top-[7px]"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav id="main-nav-mobi" class="hidden absolute w-full top-full left-0 z-[999999] bg-[#4526b1] lg:!hidden dark:bg-black dark:border-t dark:border-solid dark:border-t-[#ffffff26]">
+            <ul class="">
+                <li class="relative mobi-home mobi-item-has-children border-b-[1px] border-b-solid border-b-[#ffffff26]">
+                    <a class="relative py-[10px] px-[30px] text-tf" href="#">Home</a>
+                    <span class="arrow-down absolute top-[10px] right-[15px] duration-[0.5s]"></span>
+                    <ul class="hidden mobi-item-has-children-list">
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px] " href="index.html">Home 01</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px] text-tf" href="home-02.html">Home 02</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px] " href="home-03.html">Home 03</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px] " href="onepage.html">One Page</a></li>
+                    </ul>
+                </li>
+                <li class="relative border-b-[1px] border-b-solid border-b-[#ffffff26]">
+                    <a class="relative w-full py-[10px] px-[30px]" href="about.html">About</a>
+                </li>
+                <li class="relative border-b-[1px] border-b-solid border-b-[#ffffff26]">
+                    <a class="relative w-full py-[10px] px-[30px]" href="collections.html">Collections</a>
+                </li>
+                <li class="relative mobi-pages mobi-item-has-children border-b-[1px] border-b-solid border-b-[#ffffff26]">
+                    <a class="relative py-[10px] px-[30px] " href="#">Pages</a>
+                    <span class="arrow-down absolute top-[10px] right-[15px] duration-[0.5s]"></span>
+                    <ul class="hidden mobi-item-has-children-list">
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px]" href="team.html">Team</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px]" href="roadmap.html">Road Map</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px]" href="our-mission.html">Our Mission</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px]" href="blog-list.html">Blog List</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px]" href="blog-grid.html">Blog Grid</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px]" href="blog-single.html">Blog Single</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px]" href="faq.html">Faq</a></li>
+                    </ul>
+                </li>
+                <li class="relative border-b-[1px] border-b-solid border-b-[#ffffff26]">
+                    <a class="relative w-full py-[10px] px-[30px]" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <!-- end Header -->
+
+    <!-- Hero Slider -->
+    <section class="tf-section hero-slider">
+        <div class="p-[116px_0_327px] relative max-[1024px]:p-0 max-[767px]:p-[50px_0_100px]">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="relative pt-[24px] text-center" >
+                            <h6 data-aos="fade-up" data-aos-duration="1000" class="relative leading-[3.2] mb-[6px] after:absolute after:content-[''] after:bottom-0 after:w-[36px] after:h-[5px] after:bg-tf after:left-0 after:right-0 after:mx-auto after:text-center ">We are Monteno NFT</h6>
+                            <h2 data-aos="fade-up" data-aos-duration="1000" class="mb-[26px]">Most Popular NFT <br> Collections</h2>
+                            <p data-aos="fade-up" data-aos-duration="1000" class="text-[24px] mb-[53px]">Sed ut perspiciatis unde omnis iste natus error sit vol<br>uptatem accusantium </p>
+                            <a data-aos="fade-up" data-aos-duration="1000" href="about.html" class="btn-action style-2" >Get Connected</a>
+                            <div class="absolute w-full h-full top-0 left-0 max-[767px]:hidden">
+                                <div class="item bg-1 absolute -z-10 animate-[move_3s_infinite_linear] origin-[50%_50%] !w-[108px] !h-[108px] left-[13%] top-[-4%]">
+                                    <img src="assets/images/items/item-11.png" alt="Image">
+                                </div>
+                                <div class="item bg-2 absolute -z-10 animate-[move_3s_infinite_linear] origin-[50%_50%] !w-[170px] !h-[170px] left-[1.3%] top-[34%]">
+                                    <img src="assets/images/items/item-12.png" alt="Image">
+                                </div>
+                                <div class="item bg-1 absolute -z-10 animate-[move_3s_infinite_linear] origin-[50%_50%] !w-[120px] !h-[120px] left-[13.6%] top-[91.2%]">
+                                    <img src="assets/images/items/item-13.png" alt="Image">
+                                </div>
+                                <div class="item bg-1 absolute -z-10 animate-[move_3s_infinite_linear] origin-[50%_50%] !w-[149px] !h-[149px] right-[19.3%] top-[-13%]">
+                                    <img src="assets/images/items/item-14.png" alt="Image">
+                                </div>
+                                <div class="item bg-2 absolute -z-10 animate-[move_3s_infinite_linear] origin-[50%_50%] !w-[170px] !h-[170px] right-[4.5%] top-[24%]">
+                                    <img src="assets/images/items/item-06.png" alt="Image">
+                                </div>
+                                <div class="item bg-2 absolute -z-10 animate-[move_3s_infinite_linear] origin-[50%_50%] !w-[91px] !h-[91px] right-[12.2%] top-[88%]">
+                                    <img src="assets/images/items/item-15.png" alt="Image">
+                                </div>
+                                <div class="item bg-1 absolute -z-10 animate-[move_3s_infinite_linear] origin-[50%_50%] !w-[134px] !h-[134px] right-[24%] top-[111%]">
+                                    <img src="assets/images/items/item-16.png" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Hero Slider -->
+
+    <!-- Speciality -->
+    <section class="tf-section section-speciality">
+        <div class="container max-[1024px]:mt-[200px] max-[767px]:mt-0">
+            <div class="row">
+                <div class="col-xl-3 col-md-6 col-12">
+                    <div data-aos="fade-up" data-aos-duration="800" class="box-item max-[1024px]:max-w-full rounded-[50px] max-w-[270px] w-full max-h-[326px] cursor-pointer inline-table p-[60px_43px_36px_43px] bg-2" >
+                            <img src="assets/images/icon/hosting.png" alt="Monteno" class="mb-[36px]">
+                            <a href="collections.html" class="h5 mb-[8px]">Huge Collection</a>
+                            <p class="mt-[14px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, consectetur adipis</p>
+                        </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-12">
+                    <div data-aos="fade-up" data-aos-duration="1000" class="box-item max-[1024px]:max-w-full rounded-[50px] max-w-[270px] w-full max-h-[326px] cursor-pointer inline-table p-[60px_43px_36px_43px] bg-2 mt-[60px]">
+                            <img src="assets/images/icon/provision.png" alt="Monteno" class="mb-[36px]">
+                            <a href="collections.html" class="h5 mb-[8px]">Top Resource</a>
+                            <p class="mt-[14px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, consectetur adipis</p>
+                        </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-12">
+                    <div data-aos="fade-up" data-aos-duration="1200" class="box-item max-[1024px]:max-w-full max-[1024px]:mt-[60px] rounded-[50px] max-w-[270px] w-full max-h-[326px] cursor-pointer inline-table p-[60px_43px_36px_43px] bg-2">
+                            <img src="assets/images/icon/badge.png" alt="Monteno" class="mb-[36px]">
+                            <a href="collections.html" class="h5 mb-[8px]">High Quality</a>
+                            <p class="mt-[14px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, consectetur adipis</p>
+                        </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-12">
+                    <div data-aos="fade-up" data-aos-duration="1400" class="box-item max-[1024px]:max-w-full rounded-[50px] max-w-[270px] w-full max-h-[326px] cursor-pointer inline-table p-[60px_43px_36px_43px] bg-2 mt-[60px]">
+                            <img src="assets/images/icon/chat.png" alt="Monteno" class="mb-[36px]">
+                            <a href="collections.html" class="h5 mb-[8px]">Big Community</a>
+                            <p class="mt-[14px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, consectetur adipis</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Speciality -->
+    
+    <!-- About Us -->
+    <section class="tf-section section-about">
+        <div class="pt-[170px] pb-[146px] max-[767px]:py-[40px] max-[1024px]:py-[100px]">
+            <div class="container">
+                <div class="row max-[1024px]:flex-col-reverse">
+                    <div class="col-xl-7 col-md-12">
+                        <div class="flex items-center max-[1024px]:pt-[50px] max-[767px]:flex-wrap max-[767px]:justify-around max-[1179px]:justify-center">
+                            <div class="mr-[30px] max-[767px]:mr-0 max-[767px]:mb-[30px] max-[500px]:w-full">
+                                <div class="w-[270px] h-[320px] rounded-[50px] flex items-end justify-center bg-[#7153d9] max-[500px]:w-full">
+                                    <img class="animate-[move_3s_infinite_linear]" src="assets/images/items/item-08.png" alt="Monteno">
+                                </div>
+                            </div>
+                            <div class="max-[500px]:w-full">
+                                <div class="w-[270px] h-[320px] rounded-[50px] flex items-end justify-center bg-[#4526b1] max-[500px]:w-full mb-[30px]">
+                                    <img class="animate-[move_3s_infinite_linear]" src="assets/images/items/item-09.png" alt="Monteno">
+                                </div>
+                                <div class="w-[270px] h-[320px] rounded-[50px] flex items-end justify-center bg-[#4c22e1] max-[500px]:w-full">
+                                    <img class="animate-[move_3s_infinite_linear]" src="assets/images/items/item-10.png" alt="Monteno">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-md-12">
+                        <div class="relative pt-[12px]">
+                            <h5 data-aos="fade-up" data-aos-duration="1000" class="leading-[3.2] relative mb-[10px]
+                                    before::content-[''] before:w-[36px] before:h-[5px] before:absolute before:bottom-0 before:left-0 before:bg-[#fd562a] ">
+                                About Us
+                            </h5>
+                            <h3 data-aos="fade-up" data-aos-duration="1000" class="mb-[58px]">Hight Quality NFT  Collections </h3>
+                            <p data-aos="fade-up" data-aos-duration="1000" class="text-[21px] mb-[33px]">Sed ut perspiciatis unde omnis iste natus enim ad minim veniam, quis nostrud exercit  </p>
+                            <p data-aos="fade-up" data-aos-duration="1000" class="text-[18px] leading-[1.7] mb-[41px]">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia dese runt mollit anim id est laborum velit esse cillum dolore eu fugiat nulla pariatu epteur sint occaecat</p>
+                            <a data-aos="fade-up" data-aos-duration="1000" href="about.html" class="btn-action style-2" >More About Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end About Us -->
+
+    <!-- Montono -->
+    <section class="tf-section montono">
+        <div class="px-[6px]">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="relative text-center">
+                            <h1 class="absolute left-[27px] right-0 top-[-40px] mx-auto text-center text-[240px] tracking-[24px] uppercase -z-10">
+                                <span class="heading-bg">Collections</span>
+                            </h1>
+                            <h5 data-aos="fade-up" data-aos-duration="1000" class="relative leading-[3.2] mb-[10px] after:absolute after:content-[''] after:bottom-0 after:w-[36px] after:h-[5px] after:bg-tf after:left-0 after:right-0 after:mx-auto after:text-center ">NFT Portfolio Collections</h5>
+                            <h3 data-aos="fade-up" data-aos-duration="1000" class="mb-[28px]">Checkout Our NFT <br> Collections</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mt-[52px]">
+                    <div data-aos="fade-up" data-aos-duration="1000" class="col-xl-4 col-md-6 !px-[10px]">
+                        <div class="group relative rounded-[20px] overflow-hidden cursor-pointer mb-[19px]">
+                            <img src="assets/images/items/montono-02.png" alt="Monteno" class="w-full duration-[0.3s] group-hover:scale-[1.1]">
+                            <div class="absolute bottom-0 left-[49px] right-[46px] p-[26px_0_26px_10px] bg-[#7153d9] rounded-[10px] text-center opacity-0 duration-[0.3s] group-hover:opacity-100 group-hover:visible group-hover:bottom-[50px]">
+                                <a href="collections.html" class="h6">Monteno item 1</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000" class="col-xl-4 col-md-6 !px-[10px]">
+                        <div class="group relative rounded-[20px] overflow-hidden cursor-pointer mb-[19px]">
+                            <img src="assets/images/items/montono-01.png" alt="Monteno" class="w-full duration-[0.3s] group-hover:scale-[1.1]">
+                            <div class="absolute bottom-0 left-[49px] right-[46px] p-[26px_0_26px_10px] bg-[#7153d9] rounded-[10px] text-center opacity-0 duration-[0.3s] group-hover:opacity-100 group-hover:visible group-hover:bottom-[50px]">
+                                <a href="collections.html" class="h6">Monteno item 2</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000" class="col-xl-4 col-md-6 !px-[10px]">
+                        <div class="group relative rounded-[20px] overflow-hidden cursor-pointer mb-[19px]">
+                            <img src="assets/images/items/montono-05.png" alt="Monteno" class="w-full duration-[0.3s] group-hover:scale-[1.1]">
+                            <div class="absolute bottom-0 left-[49px] right-[46px] p-[26px_0_26px_10px] bg-[#7153d9] rounded-[10px] text-center opacity-0 duration-[0.3s] group-hover:opacity-100 group-hover:visible group-hover:bottom-[50px]">
+                                <a href="collections.html" class="h6">Monteno item 3</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000" class="col-xl-4 col-md-6 !px-[10px]">
+                        <div class="group relative rounded-[20px] overflow-hidden cursor-pointer mb-[19px]">
+                            <img src="assets/images/items/montono-04.png" alt="Monteno" class="w-full duration-[0.3s] group-hover:scale-[1.1]">
+                            <div class="absolute bottom-0 left-[49px] right-[46px] p-[26px_0_26px_10px] bg-[#7153d9] rounded-[10px] text-center opacity-0 duration-[0.3s] group-hover:opacity-100 group-hover:visible group-hover:bottom-[50px]">
+                                <a href="collections.html" class="h6">Monteno item 4</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000" class="col-xl-4 col-md-6 !px-[10px]">
+                        <div class="group relative rounded-[20px] overflow-hidden cursor-pointer mb-[19px]">
+                            <img src="assets/images/items/montono-06.png" alt="Monteno" class="w-full duration-[0.3s] group-hover:scale-[1.1]">
+                            <div class="absolute bottom-0 left-[49px] right-[46px] p-[26px_0_26px_10px] bg-[#7153d9] rounded-[10px] text-center opacity-0 duration-[0.3s] group-hover:opacity-100 group-hover:visible group-hover:bottom-[50px]">
+                                <a href="collections.html" class="h6">Monteno item 5</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000" class="col-xl-4 col-md-6 !px-[10px]">
+                        <div class="group relative rounded-[20px] overflow-hidden cursor-pointer mb-[19px]">
+                            <img src="assets/images/items/montono-07.png" alt="Monteno" class="w-full duration-[0.3s] group-hover:scale-[1.1]">
+                            <div class="absolute bottom-0 left-[49px] right-[46px] p-[26px_0_26px_10px] bg-[#7153d9] rounded-[10px] text-center opacity-0 duration-[0.3s] group-hover:opacity-100 group-hover:visible group-hover:bottom-[50px]">
+                                <a href="collections.html" class="h6">Monteno item 6</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mt-[52px] text-center">
+                            <a class="btn-action !px-[50px]" href="collections.html">
+                                View All
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Montono -->
+
+    <!-- Road Map -->
+    <section class="tf-section road-map">
+        <div class="pt-[136px] pb-[169px] max-[499px]:py-[60px] max-[1024px]:py-[100px]">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="relative text-center">
+                            <h1 class="absolute left-[27px] right-0 top-[-40px] mx-auto text-center text-[240px] tracking-[24px] uppercase -z-10">
+                                <span class="heading-bg">Road Map</span>
+                            </h1>
+                            <h5 data-aos="fade-up" data-aos-duration="1000" class="relative leading-[3.2] mb-[10px] after:absolute after:content-[''] after:bottom-0 after:w-[36px] after:h-[5px] after:bg-tf after:left-0 after:right-0 after:mx-auto after:text-center ">Road Map</h5>
+                            <h3 data-aos="fade-up" data-aos-duration="1000" class="mb-[28px]">The Journey of NFT <br> Portfolio</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="flex items-start justify-between flex-wrap relative mt-[52px]
+                            before:content-[''] before:absolute before:top-[34%] before:left-0 before:w-full before:h-[4px] before:bg-white before:rounded-[2px] before:mx-0 before:mt-[84px] max-[767px]:before:top-[33%] ">
+                            <div class="swiper swiper-road-map">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div data-aos="fade-up" data-aos-duration="1000" class="flex text-center flex-col">
+                                            <div class="relative max-w-[469px] bg-[#4526b1] rounded-[20px] p-[35px_35px_22px_35px] text-center mb-[120px]
+                                                before:content-[''] before:absolute before:bg-white before:top-auto before:bottom-[-29%] before:left-1/2 before:w-[4px] before:h-[62px] 
+                                                max-[1180px]:before:left-[48%] max-[1180px]:before:bottom-[-33%] max-[1024px]:before:bottom-[-28%] max-[820px]:before:bottom-[-34%]">
+                                                <span class=" w-[34px] h-[34px] min-h-[34px] rounded-[50%] bg-white flex items-center justify-center absolute top-auto bottom-[-37%] left-[44%] 
+                                                max-[1180px]:bottom-[-51%] max-[1024px]:bottom-[-36%] max-[820px]:bottom-[-52%]
+                                                "><i class="text-[16px] text-tf fa fa-check"></i></span> 
+                                                <h5 class="mb-[20px]">Idea Generation</h5>
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt molit anim iesod est labo met conse ctetur adipi</p>
+                                            </div>
+                                            <p class="text-[16px] text-tf mb-0">February 01, 2022</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div data-aos="fade-up" data-aos-duration="1000" class="flex text-center flex-col-reverse mt-[192px]">
+                                            <div class="relative max-w-[469px] bg-[#4526b1] rounded-[20px] p-[35px_35px_22px_35px] text-center mt-[123px] 
+                                                before:content-[''] before:absolute before:bg-white before:top-[-31%] before:left-1/2 before:w-[4px] before:h-[67px]
+                                                max-[1180px]:before:bottom-[-36%] max-[820px]:before:top-[-36%]
+                                                ">
+                                                <span class="w-[34px] h-[34px] min-h-[34px] rounded-[50%] bg-white flex items-center justify-center absolute top-[-37%] left-[44%]
+                                                max-[1180px]:left-[46%] max-[1180px]:top-[-49%] max-[1024px]:top-[-39%] max-[820px]:top-[-51%]
+                                                "><i class="text-[16px] text-tf fa fa-check"></i></span>
+                                                <h5 class="mb-[20px]">Research</h5>
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt molit anim iesod est labo met conse ctetur adipi</p>
+                                            </div>
+                                            <p class="text-[16px] text-tf mb-0">February 01, 2022</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div data-aos="fade-up" data-aos-duration="1000" class="flex text-center flex-col">
+                                            <div class="relative max-w-[469px] bg-[#4526b1] rounded-[20px] p-[35px_35px_22px_35px] text-center mb-[120px]
+                                                before:content-[''] before:absolute before:bg-white before:top-auto before:bottom-[-29%] before:left-1/2 before:w-[4px] before:h-[62px] 
+                                                max-[1180px]:before:left-[48%] max-[1180px]:before:bottom-[-33%] max-[1024px]:before:bottom-[-28%] max-[820px]:before:bottom-[-34%]">
+                                                <span class=" w-[34px] h-[34px] min-h-[34px] rounded-[50%] bg-white flex items-center justify-center absolute top-auto bottom-[-37%] left-[44%] 
+                                                max-[1180px]:bottom-[-51%] max-[1024px]:bottom-[-36%] max-[820px]:bottom-[-52%]
+                                                "><i class="text-[16px] text-tf fa fa-circle"></i></span>
+                                                <h5 class="mb-[20px]">Development</h5>
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt molit anim iesod est labo met conse ctetur adipi</p>
+                                            </div>
+                                            <p class="text-[16px] text-tf mb-0">February 01, 2022</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div data-aos="fade-up" data-aos-duration="1000" class="flex text-center flex-col-reverse mt-[192px]">
+                                            <div class="relative max-w-[469px] bg-[#4526b1] rounded-[20px] p-[35px_35px_22px_35px] text-center mt-[123px] 
+                                                before:content-[''] before:absolute before:bg-white before:top-[-31%] before:left-1/2 before:w-[4px] before:h-[67px]
+                                                max-[1180px]:before:bottom-[-36%] max-[820px]:before:top-[-36%]
+                                                ">
+                                                <span class="w-[34px] h-[34px] min-h-[34px] rounded-[50%] bg-white flex items-center justify-center absolute top-[-37%] left-[44%]
+                                                max-[1180px]:left-[46%] max-[1180px]:top-[-49%] max-[1024px]:top-[-39%] max-[820px]:top-[-51%]
+                                                "><i class="text-[16px] text-tf fa fa-angle-right color2"></i></span>
+                                                <h5 class="mb-[20px]">Result</h5>
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt molit anim iesod est labo met conse ctetur adipi</p>
+                                            </div>
+                                            <p class="text-[16px] text-tf mb-0">February 01, 2022</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div data-aos="fade-up" data-aos-duration="1000" class="flex text-center flex-col">
+                                            <div class="relative max-w-[469px] bg-[#4526b1] rounded-[20px] p-[35px_35px_22px_35px] text-center mb-[120px]
+                                                before:content-[''] before:absolute before:bg-white before:top-auto before:bottom-[-29%] before:left-1/2 before:w-[4px] before:h-[62px] 
+                                                max-[1180px]:before:left-[48%] max-[1180px]:before:bottom-[-33%] max-[1024px]:before:bottom-[-28%] max-[820px]:before:bottom-[-34%]">
+                                                <span class=" w-[34px] h-[34px] min-h-[34px] rounded-[50%] bg-white flex items-center justify-center absolute top-auto bottom-[-37%] left-[44%] 
+                                                max-[1180px]:bottom-[-51%] max-[1024px]:bottom-[-36%] max-[820px]:bottom-[-52%]
+                                                "><i class="text-[16px] text-tf fa fa-check"></i></span> 
+                                                <h5 class="mb-[20px]">Idea Generation</h5>
+                                                <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt molit anim iesod est labo met conse ctetur adipi</p>
+                                            </div>
+                                            <p class="text-[16px] text-tf mb-0">February 01, 2022</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                            
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Road Map -->
+
+    <!-- Portfolio -->
+    <section class="tf-section portfolio">
+        <div class="container-fluid !p-0">
+            <div class="swiper swiper-portfolio s1 mb-[30px] !px-[190px] max-[1024px]:!p-0">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="w-[360px] h-[280px] rounded-[20px] flex items-end justify-center bg-2 max-[1900px]:w-full"><img src="assets/images/items/item-17.png" alt="Image"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="w-[360px] h-[280px] rounded-[20px] flex items-end justify-center bg-2 max-[1900px]:w-full"><img src="assets/images/items/item-18.png" alt="Image"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="w-[360px] h-[280px] rounded-[20px] flex items-end justify-center bg-2 max-[1900px]:w-full"><img src="assets/images/items/item-19.png" alt="Image"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="w-[360px] h-[280px] rounded-[20px] flex items-end justify-center bg-2 max-[1900px]:w-full"><img src="assets/images/items/item-20.png" alt="Image"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="w-[360px] h-[280px] rounded-[20px] flex items-end justify-center bg-2 max-[1900px]:w-full"><img src="assets/images/items/item-21.png" alt="Image"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="w-[360px] h-[280px] rounded-[20px] flex items-end justify-center bg-2 max-[1900px]:w-full"><img src="assets/images/items/item-22.png" alt="Image"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="w-[360px] h-[280px] rounded-[20px] flex items-end justify-center bg-2 max-[1900px]:w-full"><img src="assets/images/items/item-23.png" alt="Image"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="swiper swiper-portfolio s2">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="w-[360px] h-[280px] rounded-[20px] flex items-end justify-center bg-2 max-[1900px]:w-full"><img src="assets/images/items/item-21.png" alt="Image"></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="w-[360px] h-[280px] rounded-[20px] flex items-end justify-center bg-2 max-[1900px]:w-full"><img src="assets/images/items/item-22.png" alt="Image"></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="w-[360px] h-[280px] rounded-[20px] flex items-end justify-center bg-2 max-[1900px]:w-full"><img src="assets/images/items/item-23.png" alt="Image"></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="w-[360px] h-[280px] rounded-[20px] flex items-end justify-center bg-2 max-[1900px]:w-full"><img src="assets/images/items/item-24.png" alt="Image"></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="w-[360px] h-[280px] rounded-[20px] flex items-end justify-center bg-2 max-[1900px]:w-full"><img src="assets/images/items/item-25.png" alt="Image"></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="w-[360px] h-[280px] rounded-[20px] flex items-end justify-center bg-2 max-[1900px]:w-full"><img src="assets/images/items/item-17.png" alt="Image"></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="w-[360px] h-[280px] rounded-[20px] flex items-end justify-center bg-2 max-[1900px]:w-full"><img src="assets/images/items/item-18.png" alt="Image"></div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Portfolio -->
+
+    <!-- Team -->
+    <section class="tf-section team">
+        <div class="pt-[139px] pb-[144px] max-[499px]:py-[60px] max-[1024px]:py-[100px]">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="relative text-center">
+                            <h1 class="absolute left-[27px] right-0 top-[-40px] mx-auto text-center text-[240px] tracking-[24px] uppercase -z-10">
+                                <span class="heading-bg">Team</span>
+                            </h1>
+                            <h5 data-aos="fade-up" data-aos-duration="1000" class="relative leading-[3.2] mb-[10px] after:absolute after:content-[''] after:bottom-0 after:w-[36px] after:h-[5px] after:bg-tf after:left-0 after:right-0 after:mx-auto after:text-center ">
+                                Team Members</h5>
+                            <h3 data-aos="fade-up" data-aos-duration="1000" class="mb-[28px]">Our Amazing Team <br> Members</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-[48px]">
+                    <div class="col-xl-3 col-md-6">
+                        <div data-aos="fade-up" data-aos-duration="800" class="flex text-center items-center justify-center flex-col group max-[1024px]:mb-[38px]">
+                            <div class="w-[270px] h-[270px] rounded-[50%] border-[6px] border-solid border-[#4526b1] overflow-hidden relative duration-[0.3s] group-hover:border-tf
+                                    before:absolute before:content-[''] before:w-full before:h-0 before:top-0 before:left-0 before:bg-[#fd562ab8] before:duration-[0.3s] group-hover:before:h-full ">
+                                <img src="assets/images/team/team-01.jpg" alt="Monteno" class="w-full h-full object-cover">
+                                <div class="absolute w-full left-0 bottom-[38%]">
+                                    <p class="mb-[16px]">
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.3s] hover:text-white fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.4s] hover:text-white fab fa-twitter"></i></a>
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.5s] hover:text-white fab fa-linkedin-in"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-[25px]">
+                                <a href="team.html" class="h5">Mike Anderson</a>
+                                <p class="text-[16px] mb-[16px]">Founder & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div data-aos="fade-up" data-aos-duration="1200" class="flex text-center items-center justify-center flex-col group max-[1024px]:mb-[38px]">
+                            <div class="w-[270px] h-[270px] rounded-[50%] border-[6px] border-solid border-[#4526b1] overflow-hidden relative duration-[0.3s] group-hover:border-tf
+                                    before:absolute before:content-[''] before:w-full before:h-0 before:top-0 before:left-0 before:bg-[#fd562ab8] before:duration-[0.3s] group-hover:before:h-full ">
+                                <img src="assets/images/team/team-02.jpg" alt="Monteno" class="w-full h-full object-cover">
+                                <div class="absolute w-full left-0 bottom-[38%]">
+                                    <p class="mb-[16px]">
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.3s] hover:text-white fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.4s] hover:text-white fab fa-twitter"></i></a>
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.5s] hover:text-white fab fa-linkedin-in"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-[25px]">
+                                <a href="team.html" class="h5">Paul Harrison</a>
+                                <p class="text-[16px] mb-[16px]">Founder & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div data-aos="fade-up" data-aos-duration="1600" class="flex text-center items-center justify-center flex-col group max-[1024px]:mb-[38px]">
+                            <div class="w-[270px] h-[270px] rounded-[50%] border-[6px] border-solid border-[#4526b1] overflow-hidden relative duration-[0.3s] group-hover:border-tf
+                                    before:absolute before:content-[''] before:w-full before:h-0 before:top-0 before:left-0 before:bg-[#fd562ab8] before:duration-[0.3s] group-hover:before:h-full ">
+                                <img src="assets/images/team/team-03.jpg" alt="Monteno" class="w-full h-full object-cover">
+                                <div class="absolute w-full left-0 bottom-[38%]">
+                                    <p class="mb-[16px]">
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.3s] hover:text-white fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.4s] hover:text-white fab fa-twitter"></i></a>
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.5s] hover:text-white fab fa-linkedin-in"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-[25px]">
+                                <a href="team.html" class="h5">Sarah Jenifer</a>
+                                <p class="text-[16px] mb-[16px]">Founder & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div data-aos="fade-up" data-aos-duration="2000" class="flex text-center items-center justify-center flex-col group max-[1024px]:mb-[38px]">
+                            <div class="w-[270px] h-[270px] rounded-[50%] border-[6px] border-solid border-[#4526b1] overflow-hidden relative duration-[0.3s] group-hover:border-tf
+                                    before:absolute before:content-[''] before:w-full before:h-0 before:top-0 before:left-0 before:bg-[#fd562ab8] before:duration-[0.3s] group-hover:before:h-full ">
+                                <img src="assets/images/team/team-04.jpg" alt="Monteno" class="w-full h-full object-cover">
+                                <div class="absolute w-full left-0 bottom-[38%]">
+                                    <p class="mb-[16px]">
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.3s] hover:text-white fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.4s] hover:text-white fab fa-twitter"></i></a>
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.5s] hover:text-white fab fa-linkedin-in"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-[25px]">
+                                <a href="team.html" class="h5">James Smith</a>
+                                <p class="text-[16px] mb-[16px]">Founder & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row lg:px-[150px] lg:mt-[38px]">
+                    <div class="col-xl-4 col-md-6">
+                        <div data-aos="fade-up" data-aos-duration="1000" class="flex text-center items-center justify-center flex-col group max-[1024px]:mb-[38px]">
+                            <div class="w-[270px] h-[270px] rounded-[50%] border-[6px] border-solid border-[#4526b1] overflow-hidden relative duration-[0.3s] group-hover:border-tf
+                                    before:absolute before:content-[''] before:w-full before:h-0 before:top-0 before:left-0 before:bg-[#fd562ab8] before:duration-[0.3s] group-hover:before:h-full ">
+                                <img src="assets/images/team/team-05.jpg" alt="Monteno" class="w-full h-full object-cover">
+                                <div class="absolute w-full left-0 bottom-[38%]">
+                                    <p class="mb-[16px]">
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.3s] hover:text-white fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.4s] hover:text-white fab fa-twitter"></i></a>
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.5s] hover:text-white fab fa-linkedin-in"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-[25px]">
+                                <a href="team.html" class="h5">Paul Harrison</a>
+                                <p class="text-[16px] mb-[16px]">Founder & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div data-aos="fade-up" data-aos-duration="1200" class="flex text-center items-center justify-center flex-col group max-[1024px]:mb-[38px]">
+                            <div class="w-[270px] h-[270px] rounded-[50%] border-[6px] border-solid border-[#4526b1] overflow-hidden relative duration-[0.3s] group-hover:border-tf
+                                    before:absolute before:content-[''] before:w-full before:h-0 before:top-0 before:left-0 before:bg-[#fd562ab8] before:duration-[0.3s] group-hover:before:h-full ">
+                                <img src="assets/images/team/team-06.jpg" alt="Monteno" class="w-full h-full object-cover">
+                                <div class="absolute w-full left-0 bottom-[38%]">
+                                    <p class="mb-[16px]">
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.3s] hover:text-white fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.4s] hover:text-white fab fa-twitter"></i></a>
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.5s] hover:text-white fab fa-linkedin-in"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-[25px]">
+                                <a href="team.html" class="h5">Sarah Jenifer</a>
+                                <p class="text-[16px] mb-[16px]">Founder & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-12">
+                        <div data-aos="fade-up" data-aos-duration="1400" class="flex text-center items-center justify-center flex-col group max-[1024px]:mb-[38px]">
+                            <div class="w-[270px] h-[270px] rounded-[50%] border-[6px] border-solid border-[#4526b1] overflow-hidden relative duration-[0.3s] group-hover:border-tf
+                                    before:absolute before:content-[''] before:w-full before:h-0 before:top-0 before:left-0 before:bg-[#fd562ab8] before:duration-[0.3s] group-hover:before:h-full ">
+                                <img src="assets/images/team/team-07.jpg" alt="Monteno" class="w-full h-full object-cover">
+                                <div class="absolute w-full left-0 bottom-[38%]">
+                                    <p class="mb-[16px]">
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.3s] hover:text-white fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.4s] hover:text-white fab fa-twitter"></i></a>
+                                        <a href="#"><i class="mx-[20px] duration-[0.5s] opacity-0 group-hover:opacity-100 group-hover:duration-[0.5s] group-hover:delay-[0.5s] hover:text-white fab fa-linkedin-in"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mt-[25px]">
+                                <a href="team.html" class="h5">James Smith</a>
+                                <p class="text-[16px] mb-[16px]">Founder & CEO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+    <!-- end Team -->
+
+    <!-- Counter -->
+    <section class="tf-section counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div data-aos="fade-up" data-aos-duration="1000" class="flex items-center justify-between bg-[#7153d9] rounded-[20px] p-[48px_105px_60px_97px]">
+                        <div class="counter text-center">
+                            <div class="number-counter text-[48px] font-[Gilroy-Bold] mb-[6px]">
+                                <span class="number" data-speed="1000" data-to="100" data-inviewport="yes">100</span>K
+                            </div>
+                            <h5>Registered User</h5>    
+                        </div>
+                        <div class="counter text-center">
+                            <div class="number-counter text-[48px] font-[Gilroy-Bold] mb-[6px]">
+                                <span class="number" data-speed="1000" data-to="5" data-inviewport="yes">5</span>M
+                            </div>
+                            <h5>Total Assets</h5>    
+                        </div>
+                        <div class="counter text-center">
+                            <div class="number-counter text-[48px] font-[Gilroy-Bold] mb-[6px]">
+                                <span class="number" data-speed="1000" data-to="10" data-inviewport="yes">10</span>B
+                            </div>
+                            <h5>Yearly Trading</h5>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Counter -->
+
+    <!-- Testimonial -->
+    <section class="tf-section testimonial">
+        <div class="p-[140px_0_132px] max-[499px]:py-[60px] max-[1024px]:py-[100px]">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="relative text-center">
+                            <h1 class="absolute left-[27px] right-0 top-[-40px] mx-auto text-center text-[240px] tracking-[24px] uppercase -z-10">
+                                <span class="heading-bg">Testimonial</span>
+                            </h1>
+                            <h5 data-aos="fade-up" data-aos-duration="1000" class="relative leading-[3.2] mb-[10px] after:absolute after:content-[''] after:bottom-0 after:w-[36px] after:h-[5px] after:bg-tf after:left-0 after:right-0 after:mx-auto after:text-center ">
+                                Testimonial</h5>
+                            <h3 data-aos="fade-up" data-aos-duration="1000" class="mb-[28px]">What People Say <br> About us</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mt-[66px]">
+                        <div class="swiper swiper-testimonial2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="bg-[#4526b1] rounded-[20px] relative p-[65px_58px_61px_58px] mb-[107px]">
+                                        <img class="absolute top-[15px] left-[20px]" src="assets/images/testimonial/left-quote.png" alt="Monteno" >
+                                        <p class="italic leading-[1.57] text-[21px] mb-[16px]">Keniam, quis nostrud exerci ut aliquip ex ea com modo cons equat. Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fu giat nulla parinon proid</p>
+                                        <div class="flex items-center mt-[38px]">
+                                            <img src="assets/images/testimonial/avt-02.png" alt="Monteno" class="w-[72px] h-[72px] min-w-[72px] mr-[21px]">
+                                            <div>
+                                                <h6 class="mb-[8px]">Paul Harrison </h6>
+                                                <p class="text-[16px] mb-0">Founder & CEO</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-[#4526b1] rounded-[20px] relative p-[65px_58px_61px_58px] mb-[107px]">
+                                        <img class="absolute top-[15px] left-[20px]" src="assets/images/testimonial/left-quote.png" alt="Monteno" >
+                                        <p class="italic leading-[1.57] text-[21px] mb-[16px]">Keniam, quis nostrud exerci ut aliquip ex ea com modo cons equat. Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fu giat nulla parinon proid</p>
+                                        <div class="flex items-center mt-[38px]">
+                                            <img src="assets/images/testimonial/avt-03.png" alt="Monteno" class="w-[72px] h-[72px] min-w-[72px] mr-[21px]">
+                                            <div>
+                                                <h6 class="mb-[8px]">Paul Harrison </h6>
+                                                <p class="text-[16px] mb-0">Founder & CEO</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-[#4526b1] rounded-[20px] relative p-[65px_58px_61px_58px] mb-[107px]">
+                                        <img class="absolute top-[15px] left-[20px]" src="assets/images/testimonial/left-quote.png" alt="Monteno" >
+                                        <p class="italic leading-[1.57] text-[21px] mb-[16px]">Keniam, quis nostrud exerci ut aliquip ex ea com modo cons equat. Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fu giat nulla parinon proid</p>
+                                        <div class="flex items-center mt-[38px]">
+                                            <img src="assets/images/testimonial/avt-04.png" alt="Monteno" class="w-[72px] h-[72px] min-w-[72px] mr-[21px]">
+                                            <div>
+                                                <h6 class="mb-[8px]">Paul Harrison </h6>
+                                                <p class="text-[16px] mb-0">Founder & CEO</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-[#4526b1] rounded-[20px] relative p-[65px_58px_61px_58px] mb-[107px]">
+                                        <img class="absolute top-[15px] left-[20px]" src="assets/images/testimonial/left-quote.png" alt="Monteno" >
+                                        <p class="italic leading-[1.57] text-[21px] mb-[16px]">Keniam, quis nostrud exerci ut aliquip ex ea com modo cons equat. Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fu giat nulla parinon proid</p>
+                                        <div class="flex items-center mt-[38px]">
+                                            <img src="assets/images/testimonial/avt-02.png" alt="Monteno" class="w-[72px] h-[72px] min-w-[72px] mr-[21px]">
+                                            <div>
+                                                <h6 class="mb-[8px]">Paul Harrison </h6>
+                                                <p class="text-[16px] mb-0">Founder & CEO</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="bg-[#4526b1] rounded-[20px] relative p-[65px_58px_61px_58px] mb-[107px]">
+                                        <img class="absolute top-[15px] left-[20px]" src="assets/images/testimonial/left-quote.png" alt="Monteno" >
+                                        <p class="italic leading-[1.57] text-[21px] mb-[16px]">Keniam, quis nostrud exerci ut aliquip ex ea com modo cons equat. Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fu giat nulla parinon proid</p>
+                                        <div class="flex items-center mt-[38px]">
+                                            <img src="assets/images/testimonial/avt-03.png" alt="Monteno" class="w-[72px] h-[72px] min-w-[72px] mr-[21px]">
+                                            <div>
+                                                <h6 class="mb-[8px]">Paul Harrison </h6>
+                                                <p class="text-[16px] mb-0">Founder & CEO</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+    
+                        
+                        </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Testimonial -->
+
+    <!-- FAQ -->
+    <section class="tf-section faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="relative text-center">
+                        <h1 class="absolute left-[27px] right-0 top-[-40px] mx-auto text-center text-[240px] tracking-[24px] uppercase -z-10">
+                            <span class="heading-bg">FAQ</span>
+                        </h1>
+                        <h5 data-aos="fade-up" data-aos-duration="1000" class="relative leading-[3.2] mb-[10px] after:absolute after:content-[''] after:bottom-0 after:w-[36px] after:h-[5px] after:bg-tf after:left-0 after:right-0 after:mx-auto after:text-center ">
+                            FAQ</h5>
+                        <h3 data-aos="fade-up" data-aos-duration="1000" class="mb-[28px]">Frequently Aksed <br> Questions</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div data-aos="fade-up" data-aos-duration="1000" class="flat-tabs flex mt-[54px] flex-wrap">
+                        <div class="col-md-4 col-12 !p-0">
+                            <ul class="menu-tab border-[1px] border-solid border-[#7153d9] rounded-[20px] p-[39px_47px_20px_47px] max-w-[270px] max-[767px]:max-w-full">
+                                <li class="item-title active">
+                                    <span class="inner">Cryptocurrency</span>
+                                </li>
+                                <li class="item-title">
+                                    <span class="inner">NFT Token</span>
+                                </li>
+                                <li class="item-title">
+                                    <span class="inner">Collection</span>
+                                </li>
+                                <li class="item-title !border-0">
+                                    <span class="inner">Crypto Trading</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-8 col-12 !pr-0 !pl-[12px] pt-[7px]">
+                            <div class="content-tab max-[767px]:mt-[60px]">
+                                <div class="content-inner">
+                                    <div class="flat-accordion">
+                                        <div class="flat-toggle">
+                                            <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500] active">When the musics over turn off the light?</h5>
+                                            <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                            <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip. Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">What is the best way to collect NFT?</h5>
+                                            <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                            <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">Why NFT Trading is so popular?</h5>
+                                            <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                            <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">How do you trade on Montono easily?</h5>
+                                            <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                            <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                            </div>
+                                        </div>                       
+                                    </div>
+                                </div>
+                                <div class="content-inner">
+                                    <div class="flat-accordion">
+                                        <div class="flat-toggle">
+                                            <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500] active">When the musics over turn off the light?</h5>
+                                            <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                            <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">What is the best way to collect NFT?</h5>
+                                            <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                            <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">Why NFT Trading is so popular?</h5>
+                                            <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                            <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">How do you trade on Montono easily?</h5>
+                                            <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                            <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                            </div>
+                                        </div>                       
+                                    </div>
+                                </div>
+                                <div class="content-inner">
+                                    <div class="flat-accordion">
+                                        <div class="flat-toggle">
+                                            <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500] active">When the musics over turn off the light?</h5>
+                                            <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                            <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">What is the best way to collect NFT?</h5>
+                                            <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                            <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">Why NFT Trading is so popular?</h5>
+                                            <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                            <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">How do you trade on Montono easily?</h5>
+                                            <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                            <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                            </div>
+                                        </div>                       
+                                    </div>
+                                </div>
+                                <div class="content-inner">
+                                    <div class="flat-accordion">
+                                        <div class="flat-toggle">
+                                            <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500] active">When the musics over turn off the light?</h5>
+                                            <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                            <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">What is the best way to collect NFT?</h5>
+                                            <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                            <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">Why NFT Trading is so popular?</h5>
+                                            <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                            <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                            </div>
+                                        </div>
+                                        <div class="flat-toggle">
+                                            <h5 class="toggle-title relative pl-[49px] mb-[19px] before:font-['Font_Awesome_5_Pro'] before:content-['\f067'] before:absolute before:left-[3px] before:top-[4px] before:text-[20px] before:font-[500]">How do you trade on Montono easily?</h5>
+                                            <div class="toggle-content pl-[49px] pb-[29px] hidden">
+                                            <p class="text-[18px] leading-[1.7] mb-[16px]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex ercitation ullamco laboris nisi ut aliquip</p>
+                                            </div>
+                                        </div>                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end FAQ -->
+
+    <!-- Blog -->
+    <section class="tf-section blog">
+        <div class="py-[122px] max-[499px]:py-[60px] max-[1024px]:py-[100px]">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="relative text-center">
+                            <h1 class="absolute left-[27px] right-0 top-[-40px] mx-auto text-center text-[240px] tracking-[24px] uppercase -z-10">
+                                <span class="heading-bg">Blog</span>
+                            </h1>
+                            <h5 class="relative leading-[3.2] mb-[10px] after:absolute after:content-[''] after:bottom-0 after:w-[36px] after:h-[5px] after:bg-tf after:left-0 after:right-0 after:mx-auto after:text-center ">
+                                From Our Blog</h5>
+                            <h3 class="mb-[28px]">Read Our Recent <br> News & Articles</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-[51px]">
+                    <div class="col-12">
+                        <div class="swiper swiper-blog">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="blog__box">
+                                        <div class="blog-img">
+                                            <a href="blog-single.html" class="w-full">
+                                                <img src="assets/images/blog/blog-01.jpg" alt="Monteno" class="w-full rounded-tl-[20px] rounded-tr-[20px]">
+                                            </a>
+                                        </div>
+                                        <div class="bg-[#4526b1] rounded-bl-[20px] rounded-br-[20px] py-[26px] px-[30px]">
+                                            <a href="blog-single.html" class="text-[16px] text-tf mb-[4px] block">NFT Trading</a>
+                                            <a href="blog-single.html" class="h6 leading-[1.4] mb-0 ">How to buy and sale nft in a easiest way</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div  class="blog__box">
+                                        <div class="blog-img">
+                                            <a href="blog-single.html" class="w-full">
+                                                <img src="assets/images/blog/blog-02.jpg" alt="Monteno" class="w-full rounded-tl-[20px] rounded-tr-[20px]">
+                                            </a>
+                                        </div>
+                                        <div class="bg-[#4526b1] rounded-bl-[20px] rounded-br-[20px] py-[26px] px-[30px]">
+                                            <a href="blog-single.html" class="text-[16px] text-tf mb-[4px] block">NFT Trading</a>
+                                            <a href="blog-single.html" class="h6 leading-[1.4] mb-0 ">How to buy and sale nft in a easiest way</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div  class="blog__box">
+                                        <div class="blog-img">
+                                            <a href="blog-single.html" class="w-full">
+                                                <img src="assets/images/blog/blog-03.jpg" alt="Monteno" class="w-full rounded-tl-[20px] rounded-tr-[20px]">
+                                            </a>
+                                        </div>
+                                        <div class="bg-[#4526b1] rounded-bl-[20px] rounded-br-[20px] py-[26px] px-[30px]">
+                                            <a href="blog-single.html" class="text-[16px] text-tf mb-[4px] block">NFT Trading</a>
+                                            <a href="blog-single.html" class="h6 leading-[1.4] mb-0 ">How to buy and sale nft in a easiest way</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div  class="blog__box">
+                                        <div class="blog-img">
+                                            <a href="blog-single.html" class="w-full">
+                                                <img src="assets/images/blog/blog-04.jpg" alt="Monteno" class="w-full rounded-tl-[20px] rounded-tr-[20px]">
+                                            </a>
+                                        </div>
+                                        <div class="bg-[#4526b1] rounded-bl-[20px] rounded-br-[20px] py-[26px] px-[30px]">
+                                            <a href="blog-single.html" class="text-[16px] text-tf mb-[4px] block">NFT Trading</a>
+                                            <a href="blog-single.html" class="h6 leading-[1.4] mb-0 ">How to buy and sale nft in a easiest way</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Blog -->
+
+    <!-- Partners -->
+    <section class="tf-section partners">
+        <div class="pt-[46px] pb-[119px]">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="partners__body style-2 bg-[#4c22e1] border-0 rounded-[20px] px-[15px] py-[28px]">
+                            <div class="swiper swiper-partner">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="box-partner w-full h-[176px] flex items-center justify-center group">
+                                            <a href="#"><img class="opacity-50 duration-[0.3s] group-hover:opacity-100" src="assets/images/partners/logo-01.png" alt="Monteno"></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box-partner w-full h-[176px] flex items-center justify-center group">
+                                            <a href="#"><img class="opacity-50 duration-[0.3s] group-hover:opacity-100" src="assets/images/partners/logo-02.png" alt="Monteno"></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box-partner w-full h-[176px] flex items-center justify-center group">
+                                            <a href="#"><img class="opacity-50 duration-[0.3s] group-hover:opacity-100" src="assets/images/partners/logo-03.png" alt="Monteno"></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box-partner w-full h-[176px] flex items-center justify-center group">
+                                            <a href="#"><img class="opacity-50 duration-[0.3s] group-hover:opacity-100" src="assets/images/partners/logo-04.png" alt="Monteno"></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box-partner w-full h-[176px] flex items-center justify-center group">
+                                            <a href="#"><img class="opacity-50 duration-[0.3s] group-hover:opacity-100" src="assets/images/partners/logo-05.png" alt="Monteno"></a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="box-partner w-full h-[176px] flex items-center justify-center group">
+                                            <a href="#"><img class="opacity-50 duration-[0.3s] group-hover:opacity-100" src="assets/images/partners/logo-06.png" alt="Monteno"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Partners -->
+    
+    <!-- Footer -->
+    <footer class="footer style-2">
+        <div class="container">
+            <div class="row">
+                <div class="footer__body flex text-left flex-wrap pb-[120px] !px-[15px] border-b-[1px] border-solid border-b-[rgba(255,255,255,0.18)] ">
+                    <div class="col-xl-3 col-md-6 col-12 p-0">
+                        <div class="info">
+                            <img src="assets/images/logo-2.png" alt="Monteno">
+                            <p class="text-[18px] leading-[1.7] mt-[23px] mb-[16px]">
+                                Duis aute irure dolor in reprehen derit in voluptate velit esse cillum dolore eu fugiat pariatur.  
+                            </p>
+                            <ul class="flex items-center mt-[30px] justify-start">
+                                <li class="social-icons !w-[54px] !h-[54px] min-w-[54px] !mr-[6px] ml-0">
+                                    <a class="hover:text-[#fff]" href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="social-icons !w-[54px] !h-[54px] min-w-[54px] !mx-[6px]">
+                                    <a class="hover:text-[#fff]" href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="social-icons !w-[54px] !h-[54px] min-w-[54px] !mx-[6px]">
+                                    <a class="hover:text-[#fff]" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li class="social-icons !w-[54px] !h-[54px] min-w-[54px] !ml-[6px] mr-0">
+                                    <a class="hover:text-[#fff]" href="#"><i class="fab fa-youtube"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-6 p-0">
+                        <div class="link s1 pt-[12px] pl-[106px]">
+                            <h5 class="mb-[8px]">Quick links</h5>
+                            <ul class="mt-[21px]">
+                                <li class="mb-[9px]">
+                                    <a class="font-['Roboto']" href="collections.html">NFT Trading</a>
+                                </li>
+                                <li class="mb-[9px]">
+                                    <a class="font-['Roboto']" href="about.html">Development</a>
+                                </li>
+                                <li class="mb-[9px]">
+                                    <a class="font-['Roboto']" href="about.html">Advertisement</a>
+                                </li>
+                                <li class="mb-[9px]">
+                                    <a class="font-['Roboto']" href="about.html">Career</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-6 p-0">
+                        <div class="link s2 pt-[12px] pl-[85px]">
+                            <h5 class="mb-[8px]">Help</h5>
+                            <ul class="mt-[21px]">
+                                <li class="mb-[9px]">
+                                    <a class="font-['Roboto']" href="about.html">About Us</a>
+                                </li>
+                                <li class="mb-[9px]">
+                                    <a class="font-['Roboto']" href="team.html">Team Members</a>
+                                </li>
+                                <li class="mb-[9px]">
+                                    <a class="font-['Roboto']" href="faq.html">Support</a>
+                                </li>
+                                <li class="mb-[9px]">
+                                    <a class="font-['Roboto']" href="about.html">Refund Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-12 p-0">
+                        <div class="newsletter pt-[12px] pl-[23px]">
+                            <h5 class="mb-[8px]">Newsletter</h5>
+                            <p class="text-[18px] leading-[1.7] mt-[18px] mb-[16px]">Duis aute irure dolor in reprehen derit in voluptate velit.</p>
+                            <form action="#">
+                                <div class="form-group flex mt-[24px] relative">
+                                    <input type="email" id="exampleInputEmail1" placeholder="Your email here" required
+                                    class="block w-full font-[400] leading-[1.5] text-[#212529] bg-white bg-clip-padding appearance-none border-none h-[61px] p-[18px] focus:outline-none text-[18px] border-0 rounded-[10px] py-[17px] px-[24px]" >
+                                    <i class="fa fa-envelope absolute right-[19px] top-[33%] text-[22px] text-tf "></i>
+                                </div>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_bottom flex items-center justify-center px-[13px] py-[35px] w-full flex-wrap md:justify-between md:!flex-nowrap">
+                    <p class="text-[16px] md:mb-0 mb-[20px] text-center">Copyright © 2022, Monteno - NFT Portfolio HTML Template. Designed by <a href="https://themeforest.net/user/themesflat/portfolio">Themesflat</a></p>
+                    <ul class="flex items-center justify-end pl-[20px] md:pl-[0]">
+                        <li class="pl-[0px] md:pl-[38px]"><a href="#" class="font-['Roboto'] text-[16px]">Terms &amp; Condition</a></li>
+                        <li class="pl-[38px]"><a href="#" class="font-['Roboto'] text-[16px]">Privacy Policy</a></li>
+                        <li class="pl-[38px]"><a href="#" class="font-['Roboto'] text-[16px]">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end Footer -->
+
+    
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/countto.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/vanilla-tilt.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".box-item"), {
+            max: 25,
+            speed: 400
+        });
+        VanillaTilt.init(document.querySelectorAll(".box-item"));
+    </script>
+    <script>AOS.init();</script>
+
+</body>
+</html>

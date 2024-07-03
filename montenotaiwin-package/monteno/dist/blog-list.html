@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Monteno - NFT Portfolio HTML Template (TaiWin CSS)</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font/font-awesome.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+</head>
+<body class="bg-[url('../images/background/bg-about.jpg')] dark:bg-none dark:bg-black">
+    
+    <!-- Preloading -->
+    <div class="preloader">
+        <div class="icon">
+            <img src="assets/images/favicon.png" alt="">
+        </div>
+    </div>
+    <!-- end Preloading -->
+
+    <!-- Dark and light button start -->
+    <div class="fixed top-[50%] right-0 translate-y-[-50%] z-50 max-[1023px]:z-[100001] max-[1023px]:top-[45px] max-[1023px]:right-[250px] max-[767px]:right-[60px]">
+        <button class="w-[50px] h-[50px] text-white flex justify-center items-center rounded-lg !outline-0 bg-tf" id="dark-mode">
+        <img src="assets/images/moon.png" alt="" class="dark--mode__icon ionicon max-w-[25px]">
+        <img src="assets/images/sun.png" alt="" class="light--mode__icon ionicon max-w-[25px]">
+        </button>
+    </div>
+    <!-- Dark and light button end -->
+
+    <!-- Scroll Top -->
+    <div class="progress-wrap active-progress">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 286.138;"></path>
+        </svg>
+    </div>
+    <!-- end Scroll Top -->
+    
+    <!-- Header -->
+    <header class="relative h-[170px] flex items-center justify-center header-fixed">
+        <div class="sticky-area-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="flex justify-between">
+                        <div class="h-[53px]">
+                            <a href="index.html">
+                                <img src="assets/images/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <nav class="hidden lg:block">
+                                <ul class="flex items-center justify-center">
+                                    <li class="group mr-[44px] relative">
+                                        <a class="relative menu-item-hover" href="#">Home</a>
+                                        <ul class="menu-item-has-children">
+                                            <li class="menu-item-children"><a href="index.html">Home 01</a></li>
+                                            <li class="menu-item-children"><a href="home-02.html">Home 02</a></li>
+                                            <li class="menu-item-children"><a href="home-03.html">Home 03</a></li>
+                                            <li class="menu-item-children"><a href="onepage.html">One Page</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="group mr-[44px] relative">
+                                        <a class="relative menu-item-hover hover:text-tf" href="about.html">About</a>
+                                    </li>
+                                    <li class="group mr-[44px] relative">
+                                        <a class="relative menu-item-hover hover:text-tf" href="collections.html">Collections</a>
+                                    </li>
+                                    <li class="group mr-[44px] relative">
+                                        <a class="relative menu-item-hover text-tf" href="#">Pages</a>
+                                        <ul class="menu-item-has-children">
+                                            <li class="menu-item-children"><a href="team.html">Team</a></li>
+                                            <li class="menu-item-children"><a href="roadmap.html">Road Map</a></li>
+                                            <li class="menu-item-children"><a href="our-mission.html">Our Mission</a></li>
+                                            <li class="menu-item-children"><a class="text-tf" href="blog-list.html">Blog List</a></li>
+                                            <li class="menu-item-children"><a href="blog-grid.html">Blog Grid</a></li>
+                                            <li class="menu-item-children"><a href="blog-single.html">Blog Single</a></li>
+                                            <li class="menu-item-children"><a href="faq.html">Faq</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="group mr-[30px] relative">
+                                        <a class="relative menu-item-hover hover:text-tf" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="hidden md:flex ">
+                                <a class="btn-action" href="contact.html">Join Now</a>
+                            </div>
+                            <div class="btn-menu lg:hidden relative mr-[15px] ml-[30px]">
+                                <span class="btn-menu-1 absolute duration-[0.3s] w-[26px] h-[3px] right-[-15px] bg-[#ffffff]"></span>
+                                <span class="btn-menu-2 absolute duration-[0.3s] w-[26px] h-[3px] right-[-15px] bg-[#ffffff] top-[7px]"></span>
+                                <span class="btn-menu-3 absolute duration-[0.3s] w-[26px] h-[3px] right-[-15px] bg-[#ffffff] -top-[7px]"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav id="main-nav-mobi" class="hidden absolute w-full top-full left-0 z-[999999] bg-[#4526b1] lg:!hidden dark:bg-black dark:border-t dark:border-solid dark:border-t-[#ffffff26]">
+            <ul class="">
+                <li class="relative mobi-home mobi-item-has-children border-b-[1px] border-b-solid border-b-[#ffffff26]">
+                    <a class="relative py-[10px] px-[30px]" href="#">Home</a>
+                    <span class="arrow-down absolute top-[10px] right-[15px] duration-[0.5s]"></span>
+                    <ul class="hidden mobi-item-has-children-list">
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px] " href="index.html">Home 01</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px] " href="home-02.html">Home 02</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px] " href="home-03.html">Home 03</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px] " href="onepage.html">One Page</a></li>
+                    </ul>
+                </li>
+                <li class="relative border-b-[1px] border-b-solid border-b-[#ffffff26]">
+                    <a class="relative w-full py-[10px] px-[30px]" href="about.html">About</a>
+                </li>
+                <li class="relative border-b-[1px] border-b-solid border-b-[#ffffff26]">
+                    <a class="relative w-full py-[10px] px-[30px]" href="collections.html">Collections</a>
+                </li>
+                <li class="relative mobi-pages mobi-item-has-children border-b-[1px] border-b-solid border-b-[#ffffff26]">
+                    <a class="relative py-[10px] px-[30px] text-tf" href="#">Pages</a>
+                    <span class="arrow-down absolute top-[10px] right-[15px] duration-[0.5s] text-tf"></span>
+                    <ul class="hidden mobi-item-has-children-list">
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px]" href="team.html">Team</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px]" href="roadmap.html">Road Map</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px]" href="our-mission.html">Our Mission</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px] text-tf" href="blog-list.html">Blog List</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px]" href="blog-grid.html">Blog Grid</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px]" href="blog-single.html">Blog Single</a></li>
+                        <li class="pl-[20px] border-t-[1px] border-t-solid border-t-[#ffffff26]"><a class="w-full py-[10px] px-[30px]" href="faq.html">Faq</a></li>
+                    </ul>
+                </li>
+                <li class="relative border-b-[1px] border-b-solid border-b-[#ffffff26]">
+                    <a class="relative w-full py-[10px] px-[30px]" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <!-- end Header -->
+
+    <!-- PageTitle -->
+    <section class="tf-section page-title">
+        <div class="container">
+            <div class="p-0 col-md-12">
+                <div class="bg-[#4c22e1] relative pt-[52px] pb-[61px] px-[94px] rounded-[20px] 
+                            before:content-[''] before:w-full before:h-full before:absolute before:top-0 before:left-0 before:bg-[url('./../../assets/images/background/bg-inner-page-02.png')] before:opacity-[0.63] before:rounded-[20px] before:mix-blend-screen before:bg-cover before:bg-no-repeat before:bg-[center_top] ">
+                    <div class="relative pt-[12px]">
+                        <h2 class="leading-[108px] relative mb-[20px]
+                                    before::content-[''] before:w-[36px] before:h-[5px] before:absolute before:bottom-0 before:left-0 before:bg-[#fd562a] ">
+                            Blog
+                        </h2>
+                        <p class="mb-[33px] text-[24px]">Sed ut perspiciatis unde omnis iste natus <br> error sit voluptatem accusantium </p>
+                    </div>
+                    <img class="absolute bottom-0 right-[129px]" src="assets/images/items/group-ntf-02.png" alt="Monteno">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end PageTitle -->
+    
+    <!-- Blog list -->
+    <section class="blog-list">
+        <div class="pt-[168px] pb-[20px] max-[499px]:pt-[60px]">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 col-md-12">
+                        <div class="">
+                            <div class="blog-box group">
+                                <div class="overflow-hidden rounded-[20px]">
+                                    <a href="blog-single.html" class="w-full">
+                                        <img src="assets/images/blog/blog-04.jpg" alt="Monteno" class="w-full rounded-[20px] duration-[0.3s] group-hover:scale-[1.1] h-[430px]">
+                                    </a>
+                                </div>
+                                <div class="pt-[45px] pb-[28px] px-[30px] max-[767px]:px-0">
+                                    <ul class="flex items-center justify-start pl-0">
+                                        <li class="pl-0"><a class="text-[18px] max-[767px]:text-[12px]" href="blog-single.html"><i class="fa fa-folder-open mr-[10px] max-[767px]:mr-[5px]"></i>Cryptography</a></li>
+                                        <li class="pl-[24px] max-[767px]:pl-[14px]"><a class="text-[18px] max-[767px]:text-[12px]" href="#"><i class="fa fa-user mr-[10px] max-[767px]:mr-[5px]"></i>John Doe</a></li>
+                                        <li class="pl-[24px] max-[767px]:pl-[14px]"><a class="text-[18px] max-[767px]:text-[12px]" href="#"><i class="fa fa-clock mr-[10px] max-[767px]:mr-[5px]"></i>February 07, 2022</a></li>
+                                    </ul>
+                                    <a href="blog-single.html" class="mt-[4px] mb-[13px] text-[36px]">
+                                        When the musics over turn off the light
+                                    </a>
+                                    <p class="pr-[40px] text-[18px] leading-[1.7]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex when the musics over turn off the light says jim morrison and doors. So close no matter how far whatis the best thing</p>
+                                    <div class="flex items-center justify-between mt-[34px]">
+                                        <a href="#" class="max-[767px]:!p-[12px_15px] btn-action style-2 !px-[39px] !py-[12px] text-[16px]">Continue Reading</a>
+                                        <div class="flex items-center justify-end">
+                                            <h6 class="text-[16px]">Share</h6>
+                                            <ul class="flex">
+                                                <li class="ml-[18px] max-[767px]:ml-[12px]"><a class="hover:text-tf" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li class="ml-[18px] max-[767px]:ml-[12px]"><a class="hover:text-tf" href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li class="ml-[18px] max-[767px]:ml-[12px]"><a class="hover:text-tf" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-box group">
+                                <div class="overflow-hidden rounded-[20px]">
+                                    <a href="blog-single.html" class="w-full">
+                                        <img src="assets/images/blog/blog-05.jpg" alt="Monteno" class="w-full rounded-[20px] duration-[0.3s] group-hover:scale-[1.1]">
+                                    </a>
+                                </div>
+                                <div class="pt-[45px] pb-[28px] px-[30px] max-[767px]:px-0">
+                                    <ul class="flex items-center justify-start pl-0">
+                                        <li class="pl-0"><a class="text-[18px] max-[767px]:text-[12px]" href="blog-single.html"><i class="fa fa-folder-open mr-[10px] max-[767px]:mr-[5px]"></i>Cryptography</a></li>
+                                        <li class="pl-[24px] max-[767px]:pl-[14px]"><a class="text-[18px] max-[767px]:text-[12px]" href="#"><i class="fa fa-user mr-[10px] max-[767px]:mr-[5px]"></i>John Doe</a></li>
+                                        <li class="pl-[24px] max-[767px]:pl-[14px]"><a class="text-[18px] max-[767px]:text-[12px]" href="#"><i class="fa fa-clock mr-[10px] max-[767px]:mr-[5px]"></i>February 07, 2022</a></li>
+                                    </ul>
+                                    <a href="blog-single.html" class="mt-[4px] mb-[13px] text-[36px]">
+                                        When the musics over turn off the light
+                                    </a>
+                                    <p class="pr-[40px] text-[18px] leading-[1.7]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex when the musics over turn off the light says jim morrison and doors. So close no matter how far whatis the best thing</p>
+                                    <div class="flex items-center justify-between mt-[34px]">
+                                        <a href="#" class="max-[767px]:!p-[12px_15px] btn-action style-2 !px-[39px] !py-[12px] text-[16px]">Continue Reading</a>
+                                        <div class="flex items-center justify-end">
+                                            <h6 class="text-[16px]">Share</h6>
+                                            <ul class="flex">
+                                                <li class="ml-[18px] max-[767px]:ml-[12px]"><a class="hover:text-tf" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li class="ml-[18px] max-[767px]:ml-[12px]"><a class="hover:text-tf" href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li class="ml-[18px] max-[767px]:ml-[12px]"><a class="hover:text-tf" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-box group">
+                                <div class="overflow-hidden rounded-[20px]">
+                                    <a href="blog-single.html" class="w-full">
+                                        <img src="assets/images/blog/blog-06.jpg" alt="Monteno" class="w-full rounded-[20px] duration-[0.3s] group-hover:scale-[1.1]">
+                                    </a>
+                                </div>
+                                <div class="pt-[45px] pb-[28px] px-[30px] max-[767px]:px-0">
+                                    <ul class="flex items-center justify-start pl-0">
+                                        <li class="pl-0"><a class="text-[18px] max-[767px]:text-[12px]" href="blog-single.html"><i class="fa fa-folder-open mr-[10px] max-[767px]:mr-[5px]"></i>Cryptography</a></li>
+                                        <li class="pl-[24px] max-[767px]:pl-[14px]"><a class="text-[18px] max-[767px]:text-[12px]" href="#"><i class="fa fa-user mr-[10px] max-[767px]:mr-[5px]"></i>John Doe</a></li>
+                                        <li class="pl-[24px] max-[767px]:pl-[14px]"><a class="text-[18px] max-[767px]:text-[12px]" href="#"><i class="fa fa-clock mr-[10px] max-[767px]:mr-[5px]"></i>February 07, 2022</a></li>
+                                    </ul>
+                                    <a href="blog-single.html" class="mt-[4px] mb-[13px] text-[36px]">
+                                        When the musics over turn off the light
+                                    </a>
+                                    <p class="pr-[40px] text-[18px] leading-[1.7]">Oficia dese runt mollit anim id est labo met, conse ctetur adipi smod tempor inc ididunt ut labore et dolore qui inim veniam, quis nostrud ex when the musics over turn off the light says jim morrison and doors. So close no matter how far whatis the best thing</p>
+                                    <div class="flex items-center justify-between mt-[34px]">
+                                        <a href="#" class="max-[767px]:!p-[12px_15px] btn-action style-2 !px-[39px] !py-[12px] text-[16px]">Continue Reading</a>
+                                        <div class="flex items-center justify-end">
+                                            <h6 class="text-[16px]">Share</h6>
+                                            <ul class="flex">
+                                                <li class="ml-[18px] max-[767px]:ml-[12px]"><a class="hover:text-tf" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li class="ml-[18px] max-[767px]:ml-[12px]"><a class="hover:text-tf" href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li class="ml-[18px] max-[767px]:ml-[12px]"><a class="hover:text-tf" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="flex ">
+                                <li class="w-[54px] h-[54px] rounded-[10px] flex items-center justify-center hover:bg-tf mr-[6px] duration-[0.3s] bg-tf"><a class="hover:text-white" href="">1</a></li>
+                                <li class="w-[54px] h-[54px] rounded-[10px] flex items-center justify-center hover:bg-tf bg-[#4526b1] mr-[6px] duration-[0.3s]"><a class="hover:text-white" href="">2</a></li>
+                                <li class="w-[54px] h-[54px] rounded-[10px] flex items-center justify-center hover:bg-tf bg-[#4526b1] mr-[6px] duration-[0.3s]"><a class="hover:text-white" href="">3</a></li>
+                                <li class="w-[54px] h-[54px] rounded-[10px] flex items-center justify-center hover:bg-tf bg-[#4526b1] mr-[6px] duration-[0.3s]"><a class="hover:text-white" href=""><i class="fa fa-angle-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-12">
+                        <div class="max-[1024px]:mt-[60px]">
+                            <div class="bg-[#4526b1] rounded-[20px] mb-[48px] px-[30px] pt-[25px] pb-[29px]">
+                                <h6 class="relative pl-[10px] mb-[8px] before:content-[''] before:absolute before:left-0 before:top-[5px] before:w-[3px] before:h-[15px] before:bg-tf before:rounded-[1.5px]">Search</h6>
+                                <div class="relative flex items-stretch w-full flex-nowrap mt-[26px] h-[54px]">
+                                    <div class="rounded-tr-none rounded-br-none">
+                                      <input type="search" id="form1" placeholder="Type &amp; hit enter" required="" 
+                                      class="block w-full text-[1rem] font-[400] leading-[1.5] text-[#212529] bg-white bg-clip-padding appearance-none rounded-tr-none rounded-br-none border-none rounded-[10px] h-full p-[18px] focus:outline-none">
+                                    </div>
+                                    <button type="button" class="relative inline-block rounded-tl-none rounded-bl-none bg-white rounded-[10px] border-none text-tf text-[20px] py-[0.375rem] px-[0.75rem] focus:outline-none ">  
+                                      <i class="fas fa-search"></i>
+                                    </button>
+                                  </div>
+                            </div>
+                            <div class="bg-[#4526b1] rounded-[20px] mb-[48px] px-[30px] pt-[25px] pb-[29px]">
+                                <h6 class="relative pl-[10px] mb-[8px] before:content-[''] before:absolute before:left-0 before:top-[5px] before:w-[3px] before:h-[15px] before:bg-tf before:rounded-[1.5px]">Recent Posts</h6>
+                                <ul class="mt-[26px]">
+                                    <li class="flex items-start justify-start mb-[21px]">
+                                        <a href="blog-single.html" class="mb-[7px] leading-[1.3]">
+                                            <img class="w-[72px] h-[72px] min-w-[72px] rounded-[5px] mr-[17px] object-cover" src="assets/images/blog/blog-04.jpg" alt="Monteno">
+                                        </a>
+                                        <div class="">
+                                            <a href="blog-single.html" class="mb-[7px] leading-[1.3] text-[18px]">Buy your NFT today</a>
+                                            <p class="text-[14px] italic ">Feb 07</p>
+                                        </div>
+                                    </li>
+                                    <li class="flex items-start justify-start mb-[21px]">
+                                        <a href="blog-single.html" class="mb-[7px] leading-[1.3]">
+                                            <img class="w-[72px] h-[72px] min-w-[72px] rounded-[5px] mr-[17px] object-cover" src="assets/images/blog/blog-05.jpg" alt="Monteno">
+                                        </a>
+                                        <div class="">
+                                            <a href="blog-single.html" class="mb-[7px] leading-[1.3] text-[18px]">How to make blockcahin</a>
+                                            <p class="text-[14px] italic ">Feb 07</p>
+                                        </div>
+                                    </li>
+                                    <li class="flex items-start justify-start ">
+                                        <a href="blog-single.html" class="mb-[7px] leading-[1.3]">
+                                            <img class="w-[72px] h-[72px] min-w-[72px] rounded-[5px] mr-[17px] object-cover" src="assets/images/blog/blog-06.jpg" alt="Monteno">
+                                        </a>
+                                        <div class="">
+                                            <a href="blog-single.html" class="mb-[7px] leading-[1.3] text-[18px]">When the musics over </a>
+                                            <p class="text-[14px] italic ">Feb 07</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bg-[#4526b1] rounded-[20px] mb-[48px] px-[30px] pt-[25px] pb-[29px]">
+                                <h6 class="relative pl-[10px] mb-[8px] before:content-[''] before:absolute before:left-0 before:top-[5px] before:w-[3px] before:h-[15px] before:bg-tf before:rounded-[1.5px]">Categories</h6>
+                                <ul class="mt-[17px]">
+                                    <li class="mb-[5px]"><a class="text-[18px] leading-[1.7]" href="#"><i class="fas fa-caret-right text-[14px] mr-[8px]"></i>Cryptocurrency</a></li>
+                                    <li class="mb-[5px]"><a class="text-[18px] leading-[1.7]" href="#"><i class="fas fa-caret-right text-[14px] mr-[8px]"></i>Block Chain</a></li>
+                                    <li class="mb-[5px]"><a class="text-[18px] leading-[1.7]" href="#"><i class="fas fa-caret-right text-[14px] mr-[8px]"></i>Bit Coin</a></li>
+                                    <li class="mb-[5px]"><a class="text-[18px] leading-[1.7]" href="#"><i class="fas fa-caret-right text-[14px] mr-[8px]"></i>Eatherium</a></li>
+                                    <li class="mb-[5px]"><a class="text-[18px] leading-[1.7]" href="#"><i class="fas fa-caret-right text-[14px] mr-[8px]"></i>NFT Market</a></li>
+                                    <li class="mb-[5px]"><a class="text-[18px] leading-[1.7]" href="#"><i class="fas fa-caret-right text-[14px] mr-[8px]"></i>Buy Sale</a></li>
+                                    <li class="mb-[5px]"><a class="text-[18px] leading-[1.7]" href="#"><i class="fas fa-caret-right text-[14px] mr-[8px]"></i>Online Trading</a></li>
+                                    <li class="mb-[5px]"><a class="text-[18px] leading-[1.7]" href="#"><i class="fas fa-caret-right text-[14px] mr-[8px]"></i>Crypto Trade</a></li>
+                                </ul>
+                            </div>
+                            <div class="bg-[#4526b1] rounded-[20px] mb-[48px] px-[30px] pt-[25px] pb-[29px]">
+                                <h6 class="relative pl-[10px] mb-[8px] before:content-[''] before:absolute before:left-0 before:top-[5px] before:w-[3px] before:h-[15px] before:bg-tf before:rounded-[1.5px]">Tags</h6>
+                                <ul class="mt-[25px] flex items-center justify-start flex-wrap">
+                                    <li class="flex items-center justify-center py-[3px] px-[15px] rounded-[18px] border-[1px] border-solid border-[rgba(255,255,255,0.302)] mr-[6px] mb-[7px] transition-all duration-[0.5s] ease-in-out hover:bg-tf hover:border-[#fd562a] "><a class="text-white text-[16px] leading-[1.7] font-['Roboto']" href="#">Crypto</a></li>
+                                    <li class="flex items-center justify-center py-[3px] px-[15px] rounded-[18px] border-[1px] border-solid border-[rgba(255,255,255,0.302)] mr-[6px] mb-[7px] transition-all duration-[0.5s] ease-in-out hover:bg-tf hover:border-[#fd562a] "><a class="text-white text-[16px] leading-[1.7] font-['Roboto']" href="#">Blockchain</a></li>
+                                    <li class="flex items-center justify-center py-[3px] px-[15px] rounded-[18px] border-[1px] border-solid border-[rgba(255,255,255,0.302)] mr-[6px] mb-[7px] transition-all duration-[0.5s] ease-in-out hover:bg-tf hover:border-[#fd562a] "><a class="text-white text-[16px] leading-[1.7] font-['Roboto']" href="#">NFT</a></li>
+                                    <li class="flex items-center justify-center py-[3px] px-[15px] rounded-[18px] border-[1px] border-solid border-[rgba(255,255,255,0.302)] mr-[6px] mb-[7px] transition-all duration-[0.5s] ease-in-out hover:bg-tf hover:border-[#fd562a] "><a class="text-white text-[16px] leading-[1.7] font-['Roboto']" href="#">Ether</a></li>
+                                    <li class="flex items-center justify-center py-[3px] px-[15px] rounded-[18px] border-[1px] border-solid border-[rgba(255,255,255,0.302)] mr-[6px] mb-[7px] transition-all duration-[0.5s] ease-in-out hover:bg-tf hover:border-[#fd562a] "><a class="text-white text-[16px] leading-[1.7] font-['Roboto']" href="#">Ico</a></li>
+                                    <li class="flex items-center justify-center py-[3px] px-[15px] rounded-[18px] border-[1px] border-solid border-[rgba(255,255,255,0.302)] mr-[6px] mb-[7px] transition-all duration-[0.5s] ease-in-out hover:bg-tf hover:border-[#fd562a] "><a class="text-white text-[16px] leading-[1.7] font-['Roboto']" href="#">Ethereum</a></li>
+                                    <li class="flex items-center justify-center py-[3px] px-[15px] rounded-[18px] border-[1px] border-solid border-[rgba(255,255,255,0.302)] mr-[6px] mb-[7px] transition-all duration-[0.5s] ease-in-out hover:bg-tf hover:border-[#fd562a] "><a class="text-white text-[16px] leading-[1.7] font-['Roboto']" href="#">Bitcoin</a></li>
+                                    <li class="flex items-center justify-center py-[3px] px-[15px] rounded-[18px] border-[1px] border-solid border-[rgba(255,255,255,0.302)] mr-[6px] mb-[7px] transition-all duration-[0.5s] ease-in-out hover:bg-tf hover:border-[#fd562a] "><a class="text-white text-[16px] leading-[1.7] font-['Roboto']" href="#">NFT Trading</a></li>
+                                    <li class="flex items-center justify-center py-[3px] px-[15px] rounded-[18px] border-[1px] border-solid border-[rgba(255,255,255,0.302)] mr-[6px] mb-[7px] transition-all duration-[0.5s] ease-in-out hover:bg-tf hover:border-[#fd562a] "><a class="text-white text-[16px] leading-[1.7] font-['Roboto']" href="#">Media</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Blog list -->
+
+    <!-- Action -->
+    <section class="tf-section action">
+        <div class="pt-[149px] py-[122px] max-[499px]:py-[60px] max-[1024px]:py-[100px]">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div data-aos="fade-up" data-aos-duration="1000" class="bg-[#4c22e1] rounded-[20px] py-[61px] px-[72px] flex items-center justify-between">
+                            <div class="relative">
+                                <h3 class="mb-[13px]">Create Your NFT Portfolio</h3>
+                                <p class="text-[21px] mb-[7px]">Get udpated with news, tips &amp; tricks</p>
+                            </div>
+                            <a href="contact.html" class="!py-[18px] !px-[60px] text-[20px] btn-action style-2">Join Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Action -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center pb-[120px] border-b-[1px] border-b-solid border-b-[#ffffff2e]">
+                        <img data-aos="fade-down" data-aos-duration="1000" class="m-auto" src="assets/images/logo.png" alt="">
+                        <p data-aos="fade-up" data-aos-duration="1000" class="text-center lg:px-[300px] md:px-[100px] px[0] pt-[42px] pb-[26px] mb-[16px] leading-[1.7]">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occae cat cupidatat non proident, sunt in culpa qui officia dese runt mollit ani 
+                        </p>
+                        <ul data-aos="fade-up" data-aos-duration="1000" class="flex justify-center">
+                            <li class="social-icons">
+                                <a class="hover:text-[#fff]" href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="social-icons">
+                                <a class="hover:text-[#fff]" href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="social-icons">
+                                <a class="hover:text-[#fff]" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li class="social-icons">
+                                <a class="hover:text-[#fff]" href="#"><i class="fab fa-youtube"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center px-[13px] py-[35px] w-full flex-wrap md:justify-between md:!flex-nowrap">
+                    <p class="text-[16px] md:mb-0 mb-[20px] text-center">Copyright © 2022, Monteno - NFT Portfolio HTML Template. Designed by <a href="https://themeforest.net/user/themesflat/portfolio">Themesflat</a></p>
+                    <ul class="flex items-center justify-end pl-[20px] md:pl-[0]">
+                        <li class="pl-[0px] md:pl-[38px]"><a href="#" class="font-['Roboto'] text-[16px]">Terms &amp; Condition</a></li>
+                        <li class="pl-[38px]"><a href="#" class="font-['Roboto'] text-[16px]">Privacy Policy</a></li>
+                        <li class="pl-[38px]"><a href="#" class="font-['Roboto'] text-[16px]">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end Footer -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>AOS.init();</script>
+
+</body>
+</html>
